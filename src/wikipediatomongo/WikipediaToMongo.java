@@ -145,14 +145,11 @@ public class WikipediaToMongo {
                     // Se eliminan las palabras con menos de 2 caracteres
                     contenido = contenido.replaceAll("\\b[\\w']{1,2}\\b", "");
                     // Se simplifican los espacios en blanco
-                    contenido = contenido.replaceAll("\\s+", " ");
+                    contenido = contenido.replaceAll("\\s+"," ");
                     // Se elimina el espacio inicial en caso de existir
-                    if (!contenido.isEmpty()) {
-                        if (contenido.charAt(0) == ' ') {
-                                contenido = contenido.substring(1);
-                        }       
+                    if (contenido.trim().length() > 0) {
+                        contenidoPrueba.append(contenido.trim() + " ");   
                     }
-                    contenidoPrueba.append(contenido);                                        
                 } 
             }         
         };
