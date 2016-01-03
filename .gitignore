@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+build/classes/wikipediatomongo/WikipediaToMongo$1.class
+build/classes/wikipediatomongo/WikipediaToMongo.class
+nbproject/private/private.xml
+build/built-jar.properties
+dist/WikipediaToMongo.jar

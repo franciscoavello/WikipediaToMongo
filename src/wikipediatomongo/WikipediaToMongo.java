@@ -25,7 +25,7 @@ public class WikipediaToMongo {
         
         SAXParser saxParser = null;
         try {
-            saxParser = factory.newSAXParser();
+            saxParser = factory.newSAXParser();            
         } catch (ParserConfigurationException ex) {
             Logger.getLogger(WikipediaToMongo.class.getName()).log(Level.SEVERE, null, ex);
         } catch (org.xml.sax.SAXException ex) {
@@ -41,9 +41,11 @@ public class WikipediaToMongo {
             boolean btext = false;
             List<String> articulo = new ArrayList<>();
             int nivel=0;
+            StringBuilder contenidoPrueba;
             
             public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException{
                 nivel++;
+                contenidoPrueba = new StringBuilder();
                 if(nivel==3){
                     if(qName.equals("title")){                        
                         btitle = true;
@@ -62,7 +64,22 @@ public class WikipediaToMongo {
             
             public void endElement(String uri, String localName, String qName) throws SAXException{
                     nivel--;
-            }
+                    if(qName.equals("text")){
+                        btext = false;                        
+                        System.out.println("--------------------------");
+                        System.out.println(contenidoPrueba);
+                        articulo.add(contenidoPrueba.toString());
+                    }                    
+                    if(articulo.size()==3 && !btext){
+                        BasicDBObject documento = new BasicDBObject();
+                        documento.put("direccion", articulo.get(0));
+                        documento.put("idDoc", articulo.get(1));
+                        documento.put("contenido", articulo.get(2));
+                        tablaDatos.insert(documento);
+                        articulo.clear();                    
+                    }
+                    
+            }   
             
             public void characters(char ch[], int start, int length) throws SAXException{
                 if(btitle){
@@ -75,25 +92,73 @@ public class WikipediaToMongo {
                     articulo.add(id);
                     bid = false;
                 }
-                if(btext){
+                if(btext){                                     
                     String contenido=new String(ch, start, length);
-                    articulo.add(contenido);
-                    btext = false;
-                }
-                if(articulo.size()==3){
-                    BasicDBObject documento = new BasicDBObject();
-                    documento.put("direccion", articulo.get(0));
-                    documento.put("idDoc", articulo.get(1));
-                    documento.put("contenido", articulo.get(2));
-                    tablaDatos.insert(documento);
-                    articulo.clear();                    
-                }
-            }
+                    // Se remueven caracter innecesarios en la cadena
+                    contenido = contenido.replace("{", " ");
+                    contenido = contenido.replace("|", " ");
+                    contenido = contenido.replace(":", " ");
+                    contenido = contenido.replace("]", " ");
+                    contenido = contenido.replace("}", " ");
+                    contenido = contenido.replace("/", " ");
+                    contenido = contenido.replace("=", " ");
+                    contenido = contenido.replace("#", " ");                    
+                    contenido = contenido.replace(".", " ");
+                    contenido = contenido.replace("-", " ");
+                    contenido = contenido.replace(",", " ");
+                    contenido = contenido.replace("<", " ");
+                    contenido = contenido.replace(">", " ");
+                    contenido = contenido.replace("!", " ");
+                    contenido = contenido.replace("¡", " ");
+                    contenido = contenido.replace("?", " ");
+                    contenido = contenido.replace("¿", " ");
+                    contenido = contenido.replace("'", " ");
+                    contenido = contenido.replace("[", " ");
+                    contenido = contenido.replace("(", " ");
+                    contenido = contenido.replace(")", " ");
+                    contenido = contenido.replace("\"", " ");
+                    contenido = contenido.replace("©", " ");
+                    contenido = contenido.replace("*", " ");
+                    contenido = contenido.replace("á", "a");
+                    contenido = contenido.replace("é", "e");
+                    contenido = contenido.replace("í", "i");
+                    contenido = contenido.replace("ó", "o");
+                    contenido = contenido.replace("ú", "u");
+                    contenido = contenido.replace("Á", "A");
+                    contenido = contenido.replace("É", "E");
+                    contenido = contenido.replace("Í", "I");
+                    contenido = contenido.replace("Ó", "O");
+                    contenido = contenido.replace("Ú", "U");
+                    contenido = contenido.replace("_", " ");
+                    contenido = contenido.replace("-", " ");
+                    contenido = contenido.replace("%", " ");
+                    contenido = contenido.replace(";", " ");
+                    contenido = contenido.replace("·", " ");                    
+                    contenido = contenido.replace("º", " ");                    
+                    contenido = contenido.replace("@", " ");                    
+                    contenido = contenido.replace("&", " ");
+                    contenido = contenido.replace("ñ", "n");
+                    contenido = contenido.replace("Ñ", "Ñ");
+                    contenido = contenido.replace("–", " ");
+                    // Se eliminan los saltos de linea
+                    contenido = contenido.replaceAll("\\r\\n|\\r|\\n", "");
+                    // Se eliminan las palabras con menos de 2 caracteres
+                    contenido = contenido.replaceAll("\\b[\\w']{1,2}\\b", "");
+                    // Se simplifican los espacios en blanco
+                    contenido = contenido.replaceAll("\\s+", " ");
+                    // Se elimina el espacio inicial en caso de existir
+                    if (!contenido.isEmpty()) {
+                        if (contenido.charAt(0) == ' ') {
+                                contenido = contenido.substring(1);
+                        }       
+                    }
+                    contenidoPrueba.append(contenido);                                        
+                } 
+            }         
         };
         
         try {
-            saxParser.parse("wikipediaTest.xml", handler);
-            System.out.println("Hola");
+            saxParser.parse("D:/wikipediaTest.xml", handler);
         } catch (SAXException ex) {
             Logger.getLogger(WikipediaToMongo.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
