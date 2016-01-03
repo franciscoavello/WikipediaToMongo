@@ -129,6 +129,27 @@ public class WikipediaToMongo {
                     contenido = contenido.replace("Í", "I");
                     contenido = contenido.replace("Ó", "O");
                     contenido = contenido.replace("Ú", "U");
+                    contenido = contenido.replace("à", "a");
+                    contenido = contenido.replace("è", "e");
+                    contenido = contenido.replace("ì", "i");
+                    contenido = contenido.replace("ò", "o");
+                    contenido = contenido.replace("ù", "u");
+                    contenido = contenido.replace("À", "A");
+                    contenido = contenido.replace("È", "E");
+                    contenido = contenido.replace("Ì", "I");
+                    contenido = contenido.replace("Ò", "O");
+                    contenido = contenido.replace("Ù", "U");
+                    contenido = contenido.replace("ä", "a");
+                    contenido = contenido.replace("ë", "e");
+                    contenido = contenido.replace("ï", "i");
+                    contenido = contenido.replace("ö", "o");
+                    contenido = contenido.replace("ü", "u");
+                    contenido = contenido.replace("Ä", "A");
+                    contenido = contenido.replace("Ë", "E");
+                    contenido = contenido.replace("Ï", "I");
+                    contenido = contenido.replace("Ö", "O");
+                    contenido = contenido.replace("Ü", "U");
+                    contenido = contenido.replace("^", " ");
                     contenido = contenido.replace("_", " ");
                     contenido = contenido.replace("-", " ");
                     contenido = contenido.replace("%", " ");
@@ -140,6 +161,8 @@ public class WikipediaToMongo {
                     contenido = contenido.replace("ñ", "n");
                     contenido = contenido.replace("Ñ", "Ñ");
                     contenido = contenido.replace("–", " ");
+                    contenido = contenido.replaceAll("[^\\x00-\\x7F]", "");
+                    contenido = contenido.replaceAll("\\\\/", "/");
                     // Se eliminan los saltos de linea
                     contenido = contenido.replaceAll("\\r\\n|\\r|\\n", "");
                     // Se eliminan las palabras con menos de 2 caracteres
@@ -148,7 +171,7 @@ public class WikipediaToMongo {
                     contenido = contenido.replaceAll("\\s+"," ");
                     // Se elimina el espacio inicial en caso de existir
                     if (contenido.trim().length() > 0) {
-                        contenidoPrueba.append(contenido.trim() + " ");   
+                        contenidoPrueba.append(contenido.trim().toLowerCase() + " ");   
                     }
                 } 
             }         
