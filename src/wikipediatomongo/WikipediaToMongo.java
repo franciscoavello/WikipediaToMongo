@@ -16,10 +16,12 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 public class WikipediaToMongo {   
-       
-         
+          
     public static void main(String[] args) throws UnknownHostException{      
-
+        
+        MongoClient mongo = new MongoClient("localhost",27017);
+        DB db = mongo.getDB("wikipediaIndex");
+        DBCollection tablaDatos = db.getCollection("datosWiki");    
         
         SAXParserFactory factory = SAXParserFactory.newInstance();
         
@@ -32,10 +34,7 @@ public class WikipediaToMongo {
             Logger.getLogger(WikipediaToMongo.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        DefaultHandler handler = new DefaultHandler(){
-            Mongo mongo = new Mongo("localhost",27017);
-            DB db = mongo.getDB("wikipediaIndex");
-            DBCollection tablaDatos = db.getCollection("datosWiki");
+        DefaultHandler handler = new DefaultHandler(){           
             boolean btitle = false;
             boolean bid = false;
             boolean btext = false;
@@ -66,8 +65,6 @@ public class WikipediaToMongo {
                     nivel--;
                     if(qName.equals("text")){
                         btext = false;                        
-                        System.out.println("--------------------------");
-                        System.out.println(contenidoPrueba);
                         articulo.add(contenidoPrueba.toString());
                     }                    
                     if(articulo.size()==3 && !btext){
@@ -76,7 +73,7 @@ public class WikipediaToMongo {
                         documento.put("idDoc", articulo.get(1));
                         documento.put("contenido", articulo.get(2));
                         tablaDatos.insert(documento);
-                        articulo.clear();                    
+                        articulo.clear();
                     }
                     
             }   
@@ -178,7 +175,7 @@ public class WikipediaToMongo {
         };
         
         try {
-            saxParser.parse("D:/wikipediaTest.xml", handler);
+            saxParser.parse("C:/Users/PC/Desktop/prueba.xml", handler);
         } catch (SAXException ex) {
             Logger.getLogger(WikipediaToMongo.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
