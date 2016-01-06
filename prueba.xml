@@ -1,0 +1,822 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="es">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>eswiki</dbname>
+    <base>https://es.wikipedia.org/wiki/Wikipedia:Portada</base>
+    <generator>MediaWiki 1.27.0-wmf.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medio</namespace>
+      <namespace key="-1" case="first-letter">Especial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discusión</namespace>
+      <namespace key="2" case="first-letter">Usuario</namespace>
+      <namespace key="3" case="first-letter">Usuario discusión</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia discusión</namespace>
+      <namespace key="6" case="first-letter">Archivo</namespace>
+      <namespace key="7" case="first-letter">Archivo discusión</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki discusión</namespace>
+      <namespace key="10" case="first-letter">Plantilla</namespace>
+      <namespace key="11" case="first-letter">Plantilla discusión</namespace>
+      <namespace key="12" case="first-letter">Ayuda</namespace>
+      <namespace key="13" case="first-letter">Ayuda discusión</namespace>
+      <namespace key="14" case="first-letter">Categoría</namespace>
+      <namespace key="15" case="first-letter">Categoría discusión</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal Discusión</namespace>
+      <namespace key="102" case="first-letter">Wikiproyecto</namespace>
+      <namespace key="103" case="first-letter">Wikiproyecto Discusión</namespace>
+      <namespace key="104" case="first-letter">Anexo</namespace>
+      <namespace key="105" case="first-letter">Anexo Discusión</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="828" case="first-letter">Módulo</namespace>
+      <namespace key="829" case="first-letter">Módulo discusión</namespace>
+      <namespace key="2300" case="first-letter">Accesorio</namespace>
+      <namespace key="2301" case="first-letter">Accesorio discusión</namespace>
+      <namespace key="2302" case="case-sensitive">Accesorio definición</namespace>
+      <namespace key="2303" case="case-sensitive">Accesorio definición discusión</namespace>
+      <namespace key="2600" case="first-letter">Tema</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Wikipedia:Artículos solicitados</title>
+    <ns>4</ns>
+    <id>5</id>
+    <restrictions>edit=autoconfirmed:move=autoconfirmed</restrictions>
+    <revision>
+      <id>75875731</id>
+      <parentid>75875615</parentid>
+      <timestamp>2014-07-28T20:43:01Z</timestamp>
+      <contributor>
+        <username>NaBUru38</username>
+        <id>237348</id>
+      </contributor>
+      <comment>nueva súper sección &quot;Ciencias naturales&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{atajos|[[WP:AS]]|[[WP:SOL]]}}
+{{Wikipedia:Artículos solicitados/Solicitudes/Plantilla}}
+
+== Por temática ==
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Arquitectura|Arquitectura]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Arquitectura&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Arquitectura}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Arte|Arte]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Arte&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Arte}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Ciencias naturales|Ciencias naturales]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Ciencias_naturales&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Ciencias naturales}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Sociedad|Sociedad]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Sociedad&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Sociedad}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Deportes|Deportes]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Deportes&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Deportes}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Empresas|Empresas e instituciones]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Empresas&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Empresas}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/fuerzas|Fuerzas armadas y guerra]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/fuerzas&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/fuerzas}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Geografía|Geografía]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Geografía&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Geografía}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Literatura|Literatura]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Literatura&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Literatura}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Matemáticas|Matemáticas]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Matemáticas&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Matemáticas}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Política|Política y gobierno]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Política&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Política}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Tecnología|Tecnología]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Tecnología&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Tecnología}}
+|sangrado = left
+|plegada= si
+}}
+
+{{Plantilla:Plegable
+| color = #cedff2
+|título    = &lt;p align=&quot;left&quot;&gt;[[Wikipedia:Artículos solicitados/Solicitudes/Miscelánea|Miscelánea]] · &lt;small&gt;&lt;span class=plainlinks&gt;[http://es.wikipedia.org/w/index.php?title=Wikipedia:Artículos_solicitados/Solicitudes/Miscelánea&amp;action=watch (vigilar esta sección)]&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;
+|contenido = {{Wikipedia:Artículos solicitados/Solicitudes/Miscelánea}}
+|sangrado = left
+|plegada= si
+}}
+
+==Listas relacionadas==
+Wikipedia dispone de varios proyectos internos para mejorar los artículos de ciertas temáticas, estos proyectos a su vez solicitan artículos de las temáticas que tratan, aquí tienes un enlace a la [[:Categoría:Wikiproyectos|categoría de Wikiproyectos]].
+
+*[[Wikiproyecto:Enciclopedia Británica 1911]]
+*[[Usuario:Platonides/Encarta/Artículos|Enciclopedia Encarta]]
+*[[Usuario:Emijrp/MiPortal/Lemario|80.000 palabras en español]]
+*[[Usuario:Emijrp/Artículos que faltan|Artículos que faltan]]
+*[[Portal:Egiptología/Solicitados|Artículos solicitados del Portal de Egiptología]]
+*[[Wikiproyecto:Botánica/Pendientes|Artículos solicitados del Proyecto Botánica]]
+*[[Wikiproyecto:Corona de Aragón/Tareas|Artículos solicitados del Proyecto Corona de Aragón]]
+*[[Wikiproyecto:Historia militar/Marina militar#Artículos solicitados|Artículos solicitados del Proyecto Marina Militar]]
+*[[Wikiproyecto:Matemáticas#Solicitudes_de_Matemáticas|Artículos solicitados del Proyecto Matemáticas]]
+*[[Wikiproyecto:Patrimonio de la Humanidad/Crear|Artículos solicitados del Proyecto Patrimonio de la Humanidad]]
+*[[Wikiproyecto:Pintura|Artículos solicitados del Proyecto Pintura]]
+*[[Wikiproyecto:Web software/Artículos solicitados|Artículos solicitados del Proyecto Web software]]
+
+
+[[Categoría:Wikipedia:Tareas pendientes|Articulos solicitados]]</text>
+      <sha1>00r6be4pyeqz2bgj0kn2x69814c0es4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Andorra</title>
+    <ns>0</ns>
+    <id>7</id>
+    <revision>
+      <id>87383573</id>
+      <parentid>87382800</parentid>
+      <timestamp>2015-11-29T13:13:33Z</timestamp>
+      <contributor>
+        <username>CommonsDelinker</username>
+        <id>220595</id>
+      </contributor>
+      <comment>Bot: Eliminando &quot;Caldea.jpg&quot;. Borrado en Commons por [[commons:User:Alan|Alan]]. (Per [[:c:Commons:Deletion requests/Files in Category:Caldea|]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{otros usos}}
+{{Ficha de país 
+| nombre_oficial             = ''Principat d'Andorra''&lt;br /&gt;Principado de Andorra   
+| imagen_bandera             = Flag of Andorra.svg
+| imagen_escudo              = Coat of arms of Andorra.svg
+| imagen_mapa                = Location Andorra Europe.png
+| lema_nacional              = ''Virtus Unita Fortior''&lt;br /&gt;([[idioma latín|latín]]: «La virtud es más fuerte unida»)
+| himno_nacional             = ''[[El Gran Carlemany]]''&lt;br /&gt;([[idioma catalán|catalán]]: 'El Gran Carlomagno')
+| archivo_himno_nacional     =
+| capital                    = [[Andorra la Vieja]]
+| capital_población          = 22.398 hab ([[2012]])
+| capital_coor               = 42_30_N_1_31_E_ 42°30′ N 1°31′ E
+| ciudad_más_poblada         = [[Andorra la Vieja]]
+| idioma_oficial             = [[Idioma Catalán|Catalán]]{{ref de ficha|1}}
+| gobierno                   = [[Principado|Coprincipado]] [[Parlamentarismo|parlamentario]]
+| título_líder1 = [[Copríncipes de Andorra|Copríncipes]]
+| nombre_líder1 = [[Joan-Enric Vives]]&lt;br /&gt;[[François Hollande]]
+| título_líder2 = [[Jefe del Gobierno de Andorra|Presidente del Gobierno]]
+| nombre_líder2 = [[Antoni Martí]]
+| fundación                  = [[Condominio]]
+| fundación_hitos            = &lt;br /&gt;&amp;nbsp;• Reconocido&lt;br /&gt;
+| fundación_fechas           = del [[obispado de Urgel]]&lt;br /&gt;y el [[condado de Foix]]&lt;br /&gt;[[1278]]
+| superficie                 = 468 
+| superficie_puesto          = 195
+| fronteras                  = 120,3 [[kilómetro|km]] 
+| costas                     = 0 km
+| población                  = 76949
+| población_año              = [[2014]]
+| población_puesto           = 185
+| PIB_nominal                =
+| PIB_nominal_año            =
+| PIB_nominal_puesto         =
+| PIB_nominal_per_cápita     =
+| PIB                        = [[US$]] 3&amp;nbsp;822 mill.&lt;ref&gt;http://www.estadistica.ad/ Departament d'estadística d'Andorra&lt;/ref&gt;
+| PIB_año                    = 2010 
+| PIB_puesto                 = 177
+| PIB_per_cápita             = US$ 44&amp;nbsp;959
+| IDH                        = {{estable}} 0,830&lt;ref name=&quot;IDH&quot;&gt;{{cita web |url=http://hdr.undp.org/sites/default/files/hdr14-summary-en.pdf |título= 2014 Human Development Report Summary |fechaacceso= 27 de julio de 2014 |editorial= United Nations Development Programme |ubicación= [[Washington D. C.|Washington]], [[Estados Unidos]] |formato=pdf |páginas= 21–25}}&lt;/ref&gt;&lt;/ref&gt; 
+| IDH_año                    = 2013
+| IDH_puesto                 = 37
+| IDH_categoría              = &lt;font color=&quot;#009900&quot;&gt;'''Muy alto'''&lt;/font&gt;&lt;ref&gt;{{cita web|url=http://hdrstats.undp.org/es/paises/perfiles/AND.html|fechaacceso=8 de noviembre de 2009|título=Informe sobre Desarrollo Humano 2013|urlarchivo=http://web.archive.org/web/http://hdrstats.undp.org/es/paises/perfiles/AND.html|fechaarchivo=29 de November de 2015}}&lt;/ref&gt;
+| moneda                     = [[Euro]] (€, &lt;code&gt;[[ISO 4217|EUR]]&lt;/code&gt;){{ref de ficha|4}}
+| gentilicio                 = andorrano, -na
+| horario                    = [[CET]] ([[Tiempo Coordinado Universal|UTC]] + 1)
+| horario_verano             = [[CEST]] ([[Tiempo Coordinado Universal|UTC]] + 2)
+| cctld                      = [[.ad]]
+| código_telefónico          = 376
+| prefijo_radiofónico        = C3E-C2N
+| matrícula_coche            = AND
+| matrícula_avión            = C3
+| código_ISO                 = 020 / AND / AD
+| miembro_de                 = [[Organización de las Naciones Unidas|ONU]], [[Unesco]], [[Organización Mundial de la Salud|OMS]], [[Organización para la Seguridad y la Cooperación en Europa|OSCE]], [[OEI]], [[Consejo de Europa|COE]], [[Unión Internacional de Telecomunicaciones|UIT]], [[OMT]], [[Unión Latina|UL]]
+| nota1                      = Aunque el único idioma oficial es el [[idioma catalán|catalán]], también son usados de forma habitual el [[idioma español|español]] y el [[idioma francés|francés]].
+| nota2                      = [[Diócesis de Urgel|Obispo de La Seo de Urgel]] (diócesis hispanoandorrana).
+| nota3                      = [[Presidente de la República Francesa]].
+| nota4                      = Antes de [[2002]], la [[peseta española]] (₧, &lt;code&gt;ESP&lt;/code&gt;) y el [[franco francés]] (₣, &lt;code&gt;FRF&lt;/code&gt;). Después de [[1982]] emitió a veces su propia moneda, el [[dinero (moneda)|diner]]. Véase ''[[Moneda andorrana]]''.
+}}
+
+'''Andorra''', oficialmente '''Principado de Andorra''' ({{lang-ca|Principat d'Andorra}}), es un [[Microestado|pequeño]] [[Estado|país soberano]] del suroeste de [[Europa]], constituido en [[Estado|Estado independiente]], [[Estado de derecho|de derecho]], [[Democracia|democrático]] y [[Estado social|social]],&lt;ref name=constitucio /&gt; cuya forma de gobierno es el [[Principado|coprincipado parlamentario]].&lt;ref name=constitucio /&gt; Su territorio está organizado en siete [[Organización territorial de Andorra|parroquias]] con una población total de 76&amp;nbsp;949 habitantes.&lt;ref name=&quot;poblacion&quot;&gt;[http://www.estadistica.ad/serveiestudis/web/banc_dades4.asp?lang=1&amp;codi_tema=2&amp;codi_divisio=8&amp;codi_subtemes=8 Departament d'Estadística]&lt;/ref&gt; Su capital es [[Andorra la Vieja]].
+
+Tiene una extensión de 468 [[km²]] y está situado en los [[Pirineos]], entre [[España]] y [[Francia]], con una altitud media de 1996 [[Altitud|metros sobre el nivel del mar]]. Limita: por el sur con [[España]], con las comarcas [[Cataluña|catalanas]] de [[Cerdaña]], [[Alto Urgel]] y [[Pallars Sobirá]]; y por el norte con [[Francia]], limitando con el departamento de [[Ariège]], en la región de [[Mediodía-Pirineos]] y el departamento de los [[Pirineos Orientales]], en la región de [[Languedoc-Rosellón]].
+
+Su sistema político tiene como [[Jefe de Estado|jefes de Estado]] a los [[copríncipes de Andorra]] :&lt;ref name=constitucio /&gt; el [[Diócesis de Urgel|obispo de Urgel]], actualmente [[Joan Enric Vives i Sicília]]; y el [[presidente de la República Francesa]], en la actualidad [[François Hollande]]. El actual [[Jefe del Gobierno de Andorra|presidente del Gobierno]] es [[Antoni Martí Petit]]. El idioma oficial es el [[idioma catalán|catalán]]&lt;ref name=constitucio&gt;{{cita web|url=http://www.consellgeneral.ad/fitxers/documents/constitucio/const-cast|fechaacceso=11 de marzo de 2015|título=Constitución andorrana}}&lt;/ref&gt; que convive con el [[Idioma español|español]] y en menor medida con el [[Idioma francés|francés]] y el [[Idioma portugués|portugués]].&lt;ref&gt;[https://www.cia.gov/library/publications/the-world-factbook/geos/an.html The World Factbook]&lt;/ref&gt;
+
+No tiene [[fuerzas armadas]] propias y su [[defensa nacional|defensa]] es responsabilidad de España y Francia.&lt;ref&gt;{{cita web|url=http://www.boe.es/buscar/doc.php?id=BOE-A-1993-16868|fechaacceso=9 de marzo de 2014|título=Artículo 3 del Tratado de buena vecindad, amistad y cooperación entre España, Francia y Andorra (BOE nº 155 de 30 de junio de 1993)}}&lt;/ref&gt; En caso de emergencias o desastres naturales, como por ejemplo las [[Inundación|inundaciones]] que ocurrieron en el año 1982, se convoca al [[somatén]], formado por los cabezas de familia con nacionalidad andorrana.
+
+Durante mucho tiempo pobre y aislado, consiguió una notable prosperidad desde la [[Segunda Guerra Mundial]] a través del [[turismo]] y, especialmente, por su condición de [[paraíso fiscal]], condición que perdió para [[España]] desde el [[10 de febrero]] de [[2010]].&lt;ref&gt;{{cita web|url=http://www.meh.es/Documentacion/Publico/NormativaDoctrina/Tributaria/Impuesto%20sobre%20la%20Renta%20de%20no%20Residentes/RD%201080.91.pdf|fechaacceso=14 de febrero de 2009|título=Real Decreto 1080/1991, de 5 de julio}}&lt;/ref&gt;&lt;ref&gt;{{cita web|url=http://www.eleconomista.es/mercados-cotizaciones/noticias/816218/10/08/La-OCDE-revisara-la-lista-de-paraisos-fiscales-para-2009.html|fechaacceso=21 de febrero de 2009|título=La OCDE revisará la lista de paraísos fiscales para 2009}}&lt;/ref&gt;&lt;ref&gt;{{cita web|url=http://www.elpais.com/articulo/economia/Andorra/deja/ser/paraiso/fiscal/Espana/elpepueco/20110210elpepueco_6/Tes|título=Andorra deja de ser paraíso fiscal para España}}&lt;/ref&gt;
+
+{| cellspacing=0 cellpadding=0 style=&quot;font-size:90%&quot;
+|
+__TOC__
+|}
+
+== Toponimia ==
+El origen de la palabra ''Andorra'' es desconocido, aunque se han formulado diversas teorías al respecto.
+* Una teoría sugiere que Andorra podría derivar del [[idioma árabe|árabe]] al-Darra, cuyo significado es ‘bosque’. Cuando los [[sarraceno]]s invadieron la [[península ibérica]], los valles de los Pirineos estaban formados por grandes extensiones de [[bosque]]s, y otros pueblos, de regiones también dominadas por los [[musulmán|musulmanes]], recibieron esta denominación.
+* Otras teorías sugieren que deriva del término navarro ''andurrial'', que significa ‘tierra cubierta de arbustos’.&lt;ref&gt;Room, Adrian (1997) [http://books.google.com/books?id=M1JIPAN-eJ4C&amp;printsec=frontcover&amp;dq=placenames+of+the+world&amp;sig=ACfU3U3TU9pAoluOToQIDmnEtr_4Vtv_ZQ Placenames of the World]. McFarland &amp; Company. Estados Unidos de América; p. 29.&lt;/ref&gt;
+* El lingüista Henri Guiter (en &quot;Essays d'étymologie&quot;, pp. 213-214), propone un origen a partir de las expresiones vascas ''(h)ama'' 'diez' e ''iturri'' 'fuente'.
+* Por otro lado, la etimología popular afirma que [[Carlomagno]] había nombrado la región en referencia al valle bíblico [[Canaán|canaanita]] de Endor&lt;ref&gt;Freedman, Paul (1999). [http://books.google.com/books?id=RXBReIaQDW8C&amp;pg=PP1&amp;dq=Images+of+the+Medieval+Peasant&amp;sig=ACfU3U0YT06KnFYQOOTHh3kHdV-PjzUFeg Images of the Medieval Peasant]. Stanford University Press. Estados Unidos de América; p. 189.&lt;/ref&gt; o Andor,&lt;ref&gt;Moran i Ocerinjauregui, Josep; Martí i Castell, Joan. (2004). [http://books.google.com/books?id=RXqT88QcKjUC&amp;dq=etimologia+andorra&amp;lr=&amp;source=gbs_summary_s&amp;cad=0 Estudis d'història de la llengua catalana]. Publicacions de l'Abadia de Montserrat. Catalunya. ISBN 84-8415-672-9. p. 124.&lt;/ref&gt; donde los madianitas habían sido derrotados.
+
+== Símbolos ==
+[[Archivo:Andorra-coa-old.jpg|thumb|Escudo de Andorra en la [[Casa de la Vall]].]]
+
+=== Escudo ===
+{{AP|Escudo de Andorra}}
+El escudo de armas del Principado de Andorra, cuyo lema es ''Virtus Unita Fortior'', está formado por cuatro cuarteles (dos por cada copríncipe).&lt;ref name=&quot;ompa&quot;&gt;{{PDF|[http://web.archive.org/web/http://www.ompa.ad/catala/signes/Llei.PDF ''Ley sobre el uso de los signos del Estado'' Anexo, página 8.]|24.9&amp;nbsp;KB}} (catalán)&lt;/ref&gt;
+
+* Primer [[Cuartel (heráldica)|Cuartel]] (superior izquierdo a la vista del observador): De [[gules]], una [[Mitra (indumentaria)|mitra]] y [[Báculo pastoral|báculo]] de [[oro (heráldica)|oro]] (obispado de la Seo de Urgel).
+* Segundo cuartel (superior derecho a ojos del observador): De oro, tres palos de gules (del Condado de Foix).
+* Tercer cuartel (inferior izquierdo a la vista del observador): De oro, cuatro palos de gules (según la ley de Andorra, por la [[Casa de Aragón]]).&lt;ref&gt;''Cfr.'' Alberto Montaner Frutos, ''El señal del rey de Aragón: Historia y significado'', Zaragoza, Institución «Fernando el Católico», 1995, pág. 41. ISBN 84-7820-283-8.{{Cita|[...] el significado primordial y, durante bastante tiempo, único de los palos de oro y gules fue el de denotar la pertenencia de su portador a la Casa de Aragón. Sin embargo, ya desde la segunda mitad del siglo XIII se añade a ese sentido una connotación que cada vez cobrará más fuerza: su asociación a la dignidad real regia, como armas de la dinastía que la ostenta. Al menos desde mediados del reinado de Jaime I se denomina constantemente a ese emblema signum regium en latín y senyal reyal en romance.}}&lt;/ref&gt;
+* Cuarto cuartel (inferior derecho a la vista del observador): de oro, dos vacas de gules puestas en palo (del [[Vizcondado de Bearne]]).
+
+=== Bandera ===
+{{AP|Bandera de Andorra}}
+[[Archivo:HPIM0309.JPG|thumb|right|Bandera andorrana en un balcón de [[Ordino]].]]
+
+La bandera de Andorra se adoptó oficialmente en [[1866]] y es tricolor vertical, azul, amarillo y rojo, la franja amarilla ligeramente más grande que las otras dos. En el centro se muestra el escudo de Andorra, para diferenciarla de las banderas de [[Moldavia]], [[Chad]] y [[Rumanía]].
+
+=== Himno ===
+La letra del [[himno]], titulado ''[[El Gran Carlemany]]'' (en castellano, ''El Gran Carlomagno''), la escribió [[Joan Benlloch i Vivó]] y la música fue compuesta por [[Enric Marfany|Enric Marfany Bons]]. El himno se adoptó oficialmente en [[1914]] y se interpretó por primera vez el [[8 de septiembre]] de [[1921]].
+
+== Historia ==
+{{AP|Historia de Andorra}}
+
+=== Prehistoria ===
+Durante el periodo del [[mesolítico]], pequeños grupos de humanos se asentaron en [[gruta]]s próximas al [[Gran Valira]], como en la [[Balma de la Margineda]], y otros puntos del territorio como [[Pal (La Massana)|Pal]], [[La Massana]] y [[Ordino]], donde el [[5 de junio]] de [[2001]] se encontró un [[sarcófago]] fabricado con losas de pizarra y que contenía restos humanos, brazaletes y recipientes de cerámica con alimentos.
+
+Debido a la fertilidad de las tierras, estos grupos las cultivaron y se establecieron definitivamente, recibiendo de los pueblos que pasaron por su territorio, la cultura del [[Edad del Bronce|bronce]] al beneficiarse de los metales que habían en [[Arinsal]].
+
+=== Imperio romano ===
+La primera referencia escrita sobre los [[andosinos]], se encuentra en la descripción que hizo el historiador [[Grecia|griego]] [[Polibio]] sobre el paso de [[Aníbal]] por los Pirineos. Durante el [[siglo V]], el [[Imperio romano]] sucumbe a los [[Pueblo visigodo|visigodos]], que ocupan la [[Galia]] meridional y parte de [[Hispania]].
+
+=== Edad Media y Edad Moderna ===
+[[Archivo:Església de Sant Joan de Caselles - 10.jpg|thumb|[[Iglesia de Sant Joan de Caselles]], construida en el siglo XI en estilo [[románico]].]]
+[[Archivo:Iglesia de San Miguel de Engolasters, Engolasters, Andorra, 2013-12-30, DD 01.JPG|miniaturadeimagen|Iglesia románica de San Miguel de Engolasters.]]
+[[File:Iglesia de Santa Coloma (Andorra).JPG|thumb|Iglesia románica de Santa Coloma]]
+Trescientos años después, los [[Conquista musulmana de la península ibérica|musulmanes]] conquistan ese territorio, traspasando la frontera con el [[Pueblo franco|Reino franco]]. En el año [[732]], [[Carlos Martel]] los derrota en la [[batalla de Poitiers (732)|batalla de Tours]], frenando su expansión hacia el Norte, aunque continúan asentados en los Pirineos. Posteriormente [[Carlomagno]] crea la [[Marca Hispánica]] y su sucesor [[Ludovico Pío|Luis el Piadoso]] integra, en el año [[817]], Andorra en el [[Imperio carolingio]].
+
+En la [[Edad Media]] (los [[valle]]s de) Andorra pertenecían al [[Condado de Urgel]] desde 839, al ser cedidos por [[Carlos el Calvo]] de la Francia Occidental (actual Francia) a [[Sunifredo I]], en el año [[839]]. Con la expansión de este condado hacia el sur, donde había terrenos más [[fertilidad|fértiles]], las zonas montañosas dejaron de tener interés para el conde y, en [[1133]], [[Ermengol VI de Urgel|Ermengol VI]] cede todos los bienes y derechos adquiridos sobre los valles de Andorra al obispo de Urgel. En el [[1095]], el [[Diócesis de Urgel|obispado]] a cambio de protección militar, cedió sus derechos políticos, militares y judiciales a la familia Caboet, aunque conservó la soberanía sobre Andorra, transformando el dominio territorial en un [[señorío eclesiástico|señorío episcopal]]. En [[1185]], Arnalda de Caboet contrajo matrimonio con [[Arnau I de Castellbó|Arnaldo I]] de [[Vizcondado de Castellbó|Castellbó]]. El matrimonio de [[Roger Bernardo II de Foix]] y [[Ermesinda de Castellbó]], en [[1208]], supuso el dominio feudal de Andorra por parte de los [[Condado de Foix|condes de Foix]], quienes irían aumentando su poder en [[Bearne]], [[Reino de Navarra]] y, siglos más tarde, el [[Francia en la Edad Moderna|Reino de Francia]].
+
+Como consecuencia de los conflictos entre [[Roger Bernardo III de Foix]] y [[Pedro de Urtx]], el 8 de septiembre de [[1278]] se firma el primer ''[[pariaje]]'' en [[Lérida]], que fija los límites del poder de cada señor, representa la fundación del Principado de Andorra y define las obligaciones de los andorranos en materia de [[diezmo]]s y asuntos militares, por lo que se formó un &quot;condominio feudal&quot;, aunque esto no le preocupa a la Corona de Aragón, ya que el [[condado de Foix]] era vasallo suyo y Andorra estaba dentro de las fronteras de la corona. Diez años después, como consecuencia de la construcción de una [[iglesia (edificio)|iglesia]] fortificada en san Vicente de Enclar por parte del conde de Foix, desde donde podía vigilar las actividades del obispo de Urgel, se firmó el segundo pariaje en [[1288]]. Este segundo tratado otorga, entre otros aspectos, el derecho a nombrar por ambas partes unos [[notario]]s que ostenten su representación en el Principado. En 1396 [[Martín el Humano]], se anexionó los [[valles de Andorra]], ya que estaba aumentando el poder de [[Francia]] y el del c.Foix, pero se los devolvió a la [[casa de Foix]] 4 años más tarde.
+
+En [[1419]] se creó el '''Consejo de la Tierra''', formado por dos o tres representantes de las 6 parroquias, con el objetivo de defender los intereses locales.
+De nuevo volvió a anexionárselos [[Fernando el Católico]] en [[1512]], en su lucha contra los Albret de [[Navarra]] y contra los condes de Foix; pero los reintegró un año más tarde a [[Germana de Foix]], que había de ser su segunda esposa. [[Carlos I de España|Carlos V]] ratificó esta donación y renunció a todos sus derechos del Principado de Andorra, excepto al de nombrar obispo (que ha sido retenido hasta la actualidad), que fue agregado a la corona francesa por [[Enrique IV de Francia|Enrique III de Navarra y IV de Francia]] en [[1607]], y su hijo en [[1620]] [[Luis XIII de Francia|Luis XIII]], lo declara unido a Francia hasta la [[Revolución]], en el que Francia renunció a sus derechos temporalmente y el obispo de Urgel la gobernó para si mismo, hasta que Napoleón volvió a aceptar la soberanía hasta 1814, cuando fue liberada por [[Inglaterra]] y sus aliados y se formalizó un [[condominio]] entre Urgel y Francia, en el que se reconocía su independencia, y por eso los [[jefe de Estado|jefes de Estado]] serán el [[Obispado de Urgel|obispo de la Seo de Urgel]] y el [[Anexo:Monarcas de Francia|Rey de Francia]] (en la actualidad, el [[Presidente de la República Francesa]]).
+
+=== Nueva Reforma ===
+[[Archivo:Andorralavetlla.JPG|thumb|[[Ordino]], lugar de residencia de Guillem d'Areny Plandolit.]]
+[[File:Monumento Nova Reforma (Andorra).JPG|thumb|Monumento conmemorativo del centenario de la Nova Reforma en Andorra la Vella]]
+En la sociedad andorrana anterior al [[siglo XVII]] sólo existían dos grupos sociales en el Principado: los ''focs'' que eran [[familia]]s o casas andorranas existentes desde hacía siglos y que tenían [[recursos económicos]] suficientes para pagar los [[impuesto]]s del ''Consell General'' o Parlamento, y los ''casalers'', grupo formado por las casas más pobres. En la vida política únicamente podían participar los miembros pertenecientes al primer grupo (cuyo número era de 179 casas frente a las 600 de los ''casalers'').
+
+En el año [[1866]] se inició, por [[Guillem d'Areny Plandolit]] y [[Antón Maestre]], un proceso democratizador con la ''[[Nova Reforma]]'', que concedió una participación más activa al pueblo andorrano en el gobierno del país. Las principales modificaciones fueron:
+
+* Derecho de [[voto (elecciones)|voto]] para todos los cabeza de familia.
+* Incompatibilidad entre el cargo de Consejero General y el de ''Cònsol'' o Consejero del Común y duración de los cargos por cuatro años.
+* Renovación de los consejeros -generales o del Común- cada cuatro años.
+* Limitación del número de consejeros del Común en cada parroquia.
+* Creación del cargo de Comisionado del Pueblo, con la finalidad de fiscalizar o controlar a la Administración y las cuentas públicas.
+
+=== Siglo XX ===
+
+Desde el [[18 de agosto]] hasta el [[9 de octubre]] de [[1933]], un destacamento de [[Gendarmería Nacional (Francia)|gendarmes]] franceses ocupó Andorra debido a los altercados producidos para conseguir el [[sufragio universal]] y a la lucha, más o menos encubierta, entre el Consejo General (''Consell General'') y los copríncipes. Paralelamente, los obreros de [[Forces Hidroelèctriques d'Andorra|FHASA]] que construían la carretera desde Andorra la Vieja hasta el [[Pas de la Casa]], y provenientes de [[España]] afiliados a la [[Confederación Nacional del Trabajo|CNT]] y [[Federación Anarquista Ibérica|FAI]], iniciaron una huelga para reivindicar mejoras en sus condiciones de trabajo.&lt;ref&gt;{{cita web|url=http://www.sci.uma.es/bbldoc/tesisuma/16277041.pdf|fechaacceso=6 de febrero de 2009|título=Evolución política de Andorra (1931-1939)}}&lt;/ref&gt;
+[[Archivo:Borís Skósyrev.jpg|thumb|upright|El barón ruso [[Borís Skósyrev]] se autoproclamó rey de Andorra con el nombre de Borís I en 1934, aunque fue depuesto pocos días después.]]
+
+El único periodo histórico durante el cual Andorra no dependió de ningún otro estado, salvo un periodo de anexión directa a Francia por [[Napoleón Bonaparte|Napoleón]] entre 1812 y 1814, fueron unos días en [[1934]], en los cuales el Barón de Orange, un ciudadano [[Rusia|ruso]] llamado [[Borís Skósyrev|Boris de Skossyreff]], se autoproclamó y [[Consagración real|coronó]] rey de Andorra y, en apenas nueve días, proclamó una [[constitución]], un boletín oficial y varios [[decreto]]s, además de [[declaración de guerra|declararle la guerra]] al Copríncipe episcopal, el Obispo de Urgel. Ante el reinado de Boris I, el [[8 de julio]] Francia comunicó oficialmente que no intervendría en Andorra. El Obispo de Urgel no tardó en actuar por la fuerza el día 21 de ese mismo mes, pidiendo ayuda a cuatro [[Guardia Civil|guardias civiles]] y un [[sargento]] españoles con base en el [[casa cuartel|cuartel]] de la Seo de Urgel, que acompañaron al supuesto monarca hasta la [[frontera]] hispano-andorrana. Los habitantes del Principado no hicieron nada por impedirlo, viéndole marchar hacia [[Seo de Urgel]] detenido y esposado. A la mañana siguiente fue trasladado a [[Barcelona]] y puesto a disposición del [[juez]] Bellón. Reaparecería durante febrero de [[1938]], en [[Aix-en-Provence]], reivindicando el trono andorrano, aunque fue detenido por las autoridades francesas y juzgado el [[21 de marzo]] de 1938.
+
+En [[1936]], con motivo de la [[Guerra Civil Española]], se repitió la presencia de gendarmes franceses, comandados nuevamente por el [[coronel]] René Baulard hasta [[1940]], año en que Francia se rinde al [[Wehrmacht|ejército alemán]]. La Guerra Civil Española y la consiguiente victoria del [[Pronunciamiento del 17 y 18 de julio de 1936|bando franquista]], además del estallido de la II Guerra Mundial y la invasión de Francia por parte de los alemanes de [[Adolf Hitler|Hitler]], dejó al país en una difícil tesitura, amparada por el [[Gobierno de Vichy]] dirigido por el [[Mariscal Petain]], tuvo que simpatizar forzosamente con los regímenes nazi y de [[Francisco Franco]] para mantener su [[neutralidad]], aprovechando esta situación para organizar cadenas de evasión destinadas a pasar judíos perseguidos por la [[Gestapo]], así como oficiales y soldados [[Aliados de la Segunda Guerra Mundial|aliados]] hacia España.
+Finalmente, en [[1944]], debido a las incursiones de [[maquis (guerrilla antifranquista)|maquis]] desde Andorra hacia España, el [[Charles de Gaulle|general de Gaulle]] envió a un contingente de gendarmes para evitar la invasión [[Franquismo|franquista]] de Andorra. A su vez, el Copríncipe episcopal también envió un destacamento de guardias civiles, permaneciendo, tanto franceses como españoles, hasta [[1945]].
+
+El [[14 de enero]] de [[1982]] entró en funciones el primer gobierno andorrano, presidido por [[Òscar Ribas Reig]]. La última fecha histórica es el [[14 de marzo]] de [[1993]], cuando se aprobó en [[referéndum]] la segunda [[Constitución de Andorra|Constitución]] escrita de su historia, que desarticuló las últimas reminiscencias feudales del Principado al declarar al pueblo andorrano como único [[soberanía nacional|soberano]] del Estado.&lt;ref name=histo3&gt;{{cita web|url=http://web.archive.org/web/http://www.enciclopedia.cat/fitxa_v2.jsp?NDCHEC=0003866|título=Andorra. Història. La història contemporània. Del 1789 al 1933|obra=L'Enciclopèdia Catalana|fechaacceso=20 de agosto de 2011|idioma=catalán}}&lt;/ref&gt;
+
+== Gobierno y política ==
+{{AP|Gobierno y administración de Andorra}}
+[[Archivo:22B andorra 2.jpg|thumb|250px|left|Entrada en Andorra del Doctor [[Ramón Iglesias y Navarri]] como príncipe, 1942]]
+[[Archivo:Casa de la Vall - 18.jpg|thumb|La [[Casa de la Vall]], antigua sede del [[Consejo General de Andorra]].]]
+Andorra es un [[Copríncipes de Andorra|coprincipado]] parlamentario y aprobó su Constitución el [[14 de marzo]] de [[1993]]. La jefatura del Estado recae en la figura del copríncipe español, el [[Obispado de Urgel|Obispo de Seo de Urgel]], y del copríncipe francés, el [[Presidente de la República Francesa]] como heredero de los derechos del Conde de Foix. Los actuales jefes de Estado son [[François Hollande]], presidente de la República Francesa, representado por [[Christian Frémont]], y el obispo de Seo de Urgel [[Joan Enric Vives i Sicília]], representado por [[Nemesi Marques Oste|Nemesi Marques i Oste]]. El presidente del Gobierno actual es [[Antoni Martí]].
+
+El Principado está [[Anexo: Misiones diplomáticas de Andorra|representado]] internacionalmente en varias organizaciones, además de poseer un [[cuerpo diplomático]] en países del exterior.
+
+=== Poder ejecutivo ===
+El órgano [[Poder ejecutivo|ejecutivo]] está compuesto por un presidente del Gobierno y varios [[ministerio]]s en número variable.&lt;ref&gt;{{cita web|url=http://www.govern.ad/ministeri-de-finances-i-funcio-publica|fechaacceso=9 de marzo de 2014|título=Composición del gobierno andorrano|idioma=catalán|urlarchivo=http://web.archive.org/web/http://www.govern.ad/ministeri-de-finances-i-funcio-publica|fechaarchivo=29 de noviembre de 2015}}&lt;/ref&gt;
+
+=== Poder legislativo ===
+[[Archivo:Sededelgobiernoandorrano.JPG|thumb|Placa del [[parlamento]] andorrano.]]
+El [[Consejo General de Andorra]], antiguamente denominado Consejo General de los Valles de Andorra, es el órgano [[Poder legislativo|legislativo]] y se trata de un parlamento unicameral de representación mixta y paritaria de la población nacional y de las siete parroquias, compuesto por 28 miembros elegidos cada cuatro años. La sede del parlamento es el [[Nuevo Parlamento de Andorra]], inaugurado en [[2011]]. Hasta entonces la sede fue la histórica [[Casa de la Vall]].&lt;ref&gt;{{cita noticia|apellidos1=Andreu|nombre1=Iago|título=El síndic obre el nou Consell 15 anys després d'iniciar el procés|url=http://www.elperiodic.ad/noticia/12873/el-sindic-obre-el-nou-consell-15-anys-despres-diniciar-el-proces|fechaacceso=9 de marzo de 2015|agencia=El Periòdic d'Andorra|fecha=11 de marzo de 2011|idioma=catalán}}&lt;/ref&gt;
+
+Los partidos representados en el Consejo General, según los resultados de las [[Elecciones parlamentarias en Andorra de 2015|elecciones del 1 de marzo de 2015]] son:&lt;ref&gt;{{cita web|url=http://www.eleccions.ad|fechaacceso=16 de agosto de 2009|título=Elecciones Generales|editor=Gobierno de Andorra|idioma=catalán}}&lt;/ref&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;1&quot; style=&quot;margin: 1em 1em 1em 0; background: #f9f9f9; border: 1px #aaa solid; text-align:right; border-collapse: collapse; font-size: 95%;&quot;
+|-
+!style=&quot;background-color:#E9E9E9&quot; align=left colspan=2 rowspan=2|Partido
+!style=&quot;background-color:#E9E9E9&quot; align=center colspan=2| Resultados 2015
+|-
+!style=&quot;background-color:#E9E9E9&quot; align=center|%
+!style=&quot;background-color:#E9E9E9&quot; align=center|escaños
+|-
+|bgcolor=&quot;orange&quot;|
+|align=left|[[Demócratas por Andorra]] (''Demòcrates per Andorra'')
+|align=&quot;center&quot; |37
+|align=&quot;center&quot; |15
+|-
+|bgcolor=&quot;sky blue&quot;|
+|align=left|[[Partido Liberal de Andorra]] (''Partit Liberal d'Andorra'')
+|align=&quot;center&quot; |27,7
+|align=&quot;center&quot; |8
+|-
+|bgcolor=&quot;red&quot;|
+|align=left|Juntos (''Junts'')
+|align=&quot;center&quot; |23,5
+|align=&quot;center&quot; |3
+|-
+|bgcolor=&quot;purple&quot;|
+|align=left|Social Democracia y Progreso (''Socialdemocràcia i Progrés'')
+|align=&quot;center&quot; |11,7
+|align=&quot;center&quot; |2
+|}
+Actualmente, en Andorra gobierna [[Demócratas por Andorra]], partido de centroderecha que en las últimas elecciones obtuvo mayoría absoluta. El presidente del Gobierno (''Cap de Govern'') del país es [[Antoni Martí]].
+
+=== Poder judicial ===
+El sistema [[Poder judicial|judicial]] andorrano está compuesto por:
+* ''[[Bailía de Andorra]]'': juzga, en primera instancia, los [[delito]]s menores y contravenciones penales así como los [[litigio civil|litigios civiles]] y [[litigio administrativo|administrativos]],
+* ''[[Tribunal de Cortes]]'': dirime, en primera instancia, sobre los delitos mayores y, en [[apelación]], los recursos contra las sentencias dictadas por el Tribunal de Batlles,
+* ''[[Tribunal Superior de Justicia de Andorra]]'': compuesto por un presidente y ocho magistrados designados por el Consell Superior de la Justícia. Cuenta con competencias sobre asuntos civiles, administrativos y penales,
+* ''[[Consejo Superior de la Justicia]]'': órgano de representación, gobierno y administración del poder judicial y que vela por la independencia y buen funcionamiento de la justicia. Y el
+* ''[[Tribunal Constitucional de Andorra]]'': es el encargado de interpretar la Constitución andorrana, así como decidir sobre la adecuación de las restantes [[ley]]es a esta. Se compone de cuatro magistrados.
+
+=== Administración pública ===
+Los ''[[Comunas|comunes]]'' son órganos de representación y administración civil de las parroquias. Son corporaciones públicas con personalidad jurídica y potestad normativa local.&lt;ref name=constitucio /&gt; Los comunes se encargan de aprobar y ejecutar el presupuesto comunal, gestionar los bienes de propiedad comunal y pueden presentar proyectos de ley al [[Consejo General de Andorra]].&lt;ref name=constitucio /&gt; Sus miembros se eligen cada cuatro años por sufragio universal e incluyen un cónsul mayor, un cónsul menor y entre 8 y 14 consejeros comunales.
+
+=== Derechos humanos ===
+{{Estatus-HRC-país
+| país = Principado de Andorra
+| CESCR = 3
+| CESCR-OP = 4
+| CCPR = 2
+| CCPR-OP1 = 2 
+| CCPR-OP2 = 2
+| CERD = 2
+| CEDAW = 1b
+| CEDAW-OP = 1
+| CAT = 2
+| CRC = 1
+| CRC-OP-AC = 1
+| CRC-OP-SC = 1
+| MWC = 3
+| CRPD =2
+| CRPD-OP =2
+}}
+La actual normativa sobre revisiones médicas que se realizan a [[Inmigración|inmigrantes]],&lt;ref&gt;{{cita web|url=http://www.bopa.ad/bopa/1998/bop10004.pdf|fechaacceso=23 de enero de 2010|título=Reglament regulador de les revisions mèdiques dels immigrants|idioma=catalán}}&lt;/ref&gt; establece que se denegará la [[Permiso de trabajo|autorización de trabajo]] a aquellas personas que padezcan [[alcoholismo]] u otras [[Drogodependencia|toxicomanias]], enfermedades susceptibles de cuarentena definidas en el Reglamento Sanitario Internacional de la [[Organización Mundial de la Salud]], [[Enfermedad mental|alteraciones psicomentales]] graves que representen un peligro para el orden o seguridad públicas, [[Enfermedad infecciosa|enfermedades infecciosas]] que representen un peligro para la salud pública como [[hepatitis]] o [[sida]],&lt;ref name=20minutos&gt;{{cita web|url=http://www.20minutos.es/noticia/233584/0/Expulsados/paraiso/andorrano/|fechaacceso=23 de enero de 2010|título=Expulsados del paraíso andorrano}}&lt;/ref&gt; enfermedades crónicas que evolucionen a una incapacidad laboral como [[sordera]]&lt;ref name=20minutos /&gt;o incapacidades físicas o psíquicas para el tipo de trabajo solicitado.
+
+== Organización territorial ==
+{{AP|Organización territorial de Andorra}}
+{{Mapa de Andorra}}
+Andorra se divide territorialmente en siete [[parroquia (civil)|parroquias]], primer y único nivel político-administrativo del país. Aun así, hay subdivisiones territoriales: las parroquias de [[Ordino]], [[La Massana]] y [[San Julián de Loria]] se dividen en ''quarts'' (cuartos rurales), y la parroquia de [[Canillo]] en ''veïnats'' (vecindades).
+
+=== Parroquias ===
+
+Las parroquias toman el nombre de su capital y el orden protocolario es:
+
+* [[Canillo]]. Fronteriza con [[Francia]].
+* [[Encamp]]. Fronteriza con Francia y España.
+* [[Ordino]]. Fronteriza con Francia.
+* [[La Massana]]. Fronteriza con España y Francia.
+* [[Andorra la Vieja]]. Parroquia más poblada y fronteriza con [[España]]. Su ciudad principal es la capital del país.
+* [[San Julián de Loria]]. Fronteriza con España.
+* [[Escaldes-Engordany]]. Fronteriza con España. Es la más reciente, al haberse formado en junio de [[1978]].
+&lt;br /&gt;
+
+== Geografía ==
+[[Archivo:Andorra topographic map-es.svg|thumb|Mapa topográfico de Andorra.]]
+[[Archivo:Andorra nasa world wind.png|thumb|Imagen por satélite de Andorra.]]
+{{AP|Geografía de Andorra}}
+La superficie de Andorra, englobada en la [[península ibérica]], es de 468&amp;nbsp;km², siendo un país montañoso, con 65 [[montaña|picos]] de más de 2500&amp;nbsp;m de altitud. La montaña más alta es el pico de [[Comapedrosa]] que, con una altitud de 2942&amp;nbsp;[[msnm]], está situado en la cordillera de los Pirineos, enclavado entre la frontera de España y Francia. Es una región de escarpados picos montañosos y estrechos [[valle]]s por donde fluyen numerosos cursos de agua que se unen para formar los tres [[río]]s principales: el río Valira del Norte, el río Valira de Oriente y el río Gran Valira. Hay grandes extensiones boscosas de [[pino]]s y [[abedul]]es debido al clima mediterráneo de alta montaña del que goza el país. En [[2004]], el [[valle de Madriu-Perafita-Claror]] fue declarado [[Patrimonio de la Humanidad]] por la [[Unesco]].&lt;ref&gt;{{cita web|url=http://whc.unesco.org/en/list/1160/|fechaacceso=6 de febrero de 2009|título=UNESCO World Heritage Centre|idioma=inglés}}&lt;/ref&gt;
+
+=== Clima ===
+Andorra cuenta con un [[clima mediterráneo]] de alta montaña, en el que las temperaturas en [[invierno]] son frías y en [[verano]], suaves. Se producen variaciones en el clima dependiendo de la altitud y la orientación. El Principado tiene un porcentaje elevado de días soleados y el clima es seco.
+
+La media de las mínimas anuales es de -11&amp;nbsp;°C y la de las máximas es de 24&amp;nbsp;°C. Las precipitaciones más abundantes se producen durante el otoño mientras que en invierno son, sobre todo, de nieve.
+
+=== Relieve ===
+
+Este pequeño país se caracteriza por sus cumbres de materiales [[paleozoico]]s, que se elevan por encima de los 2.600 msnm y culminan a 2.942 msnm (Pico de Coma Pedrosa) cerca del [[Pla de l'Estany (lago)|Pla de l'Estany]] en la frontera hispano-francesa. La actividad humana se centra en el valle transversal noreste-suroeste, que a partir del [[puerto de Envalira]], con 2.407 msnm, desciende hasta los 840 msnm, cuando el [[río Valira]] entra en España.
+
+=== Vegetación ===
+Los bosques ocupan 2/5 del territorio, distribuidos en tres pisos altitudinales: hasta los 1200 metros, destacan la [[Quercus ilex|encina]] y el [[roble]]; hasta los 1600-1700 metros, predomina el [[Pinus sylvestris|pino silvestre]]; y hasta los 2200-2300 metros, abunda el [[pinus uncinata|pino negro]], sustituido en las cumbres por los prados alpinos.
+
+En la parroquia de La Massana está el bosque de Arinsal, una de las masas forestales más importantes de Andorra. Su flor típica es la grandalla.
+
+=== Hidrografía ===
+[[Archivo:Grandvalira ski resort, Andorra5.jpg|thumb|Estación de esquí de [[Grandvalira]].]]
+
+El país es cruzado por los tres ríos principales. El [[Valira de Oriente]] nace en la parte más oriental, tiene un recorrido de 23 km y pasa por las ciudades de Canillo y Encamp, confluyendo con el río [[Valira del Norte]], que nace en los [[lagos de Tristaina]], tiene un recorrido de 14 km y pasa por la ciudad de Ordino y La Massana para finalmente, en la ciudad de Escaldes-Engordany, confluir ambos ríos y formar el [[Gran Valira]], con un recorrido de 11,6 km y un caudal anual medio de 13 m&lt;sup&gt;3&lt;/sup&gt;/s. Éste último, en su descenso hacia el sur, acaba desembocando en el río [[río Segre|Segre]] que, a su vez, es afluente del [[río Ebro|Ebro]].
+
+Andorra tiene más de 60 [[lago]]s. Los más representativos son el [[lago de Juclar]], cuya superficie es la más extensa de todos los lagos del Principado con 21 hectáreas y que, durante la época estival y por la consecuente falta de agua, puede avistarse como tres lagos diferentes, aunque en realidad es el mismo, el [[lago de l'Illa]] con 13 hectáreas, el [[estanque de Engolasters]] con 7 hectáreas y los tres [[lagos de Tristaina]].
+
+== Demografía ==
+{{AP|Demografía de Andorra}}
+
+=== Población ===
+[[Archivo:Pas de la case.jpg|thumb|left|[[El Pas de la Casa|Pas de la Casa]], pueblo fronterizo con [[Francia]].]]
+
+La población de Andorra en 2014 era de 76.949 habitantes.&lt;ref name=&quot;poblacion&quot;/&gt; En 2008 era de 84.484 habitantes, de los cuales 31.636 eran andorranos, 27.300 [[España|españoles]], 13.794 [[Portugal|portugueses]], 5.214 [[Francia|franceses]] y 6.540 de otras nacionalidades.&lt;ref name=datos&gt;{{cita web|url=http://www.estadistica.ad/serveiestudis/web/index.asp?lang=2#|fechaacceso=12 de febrero de 2009|título=Departament d'Estudis i Estadística}}&lt;/ref&gt; Debido a una política voluntaria de carácter restrictivo para adquirir la nacionalidad, en 1998, última fecha de la que se tiene información de todos los habitantes con nacionalidad andorrana, sólo el 53,1% habían nacido en Andorra.&lt;ref name=datos /&gt; Aun así, el número total de ciudadanos andorranos ha crecido significativamente en los últimos diez años: en 1998, sólo representaban el 24,5% de la población total y en la actualidad, ya son [[mayoría relativa]]. Por el contrario, el número absoluto de ciudadanos españoles en [[2007]] era ligeramente menor que el número de [[1998]], pero su porcentaje con respecto de la población total ha disminuido significativamente del 48,4% al 32,8%, y hoy constituyen la primera minoría del país,&lt;ref name=datos /&gt; junto con portugueses (16,3%) y franceses (6,3%) como los otros grupos principales. En conjunto, los ciudadanos que no disponen de la nacionalidad andorrana son mayoritarios pero no tienen [[sufragio|derecho a voto]] en las elecciones comunales, ni tampoco pueden ser presidentes.&lt;ref&gt;[http://www.elpais.com/articulo/internacional/ANDORRA/Parlamento/andorrano/facilita/hijos/residentes/adquisicion/nacionalidad/elpepiint/19850801elpepiint_23/Tes/ El País 1 de agosto de 1985], [http://www.elpais.com/articulo/internacional/ANDORRA/examen/ser/andorrano/elpepiint/19851027elpepiint_18/Tes/ El País 27 de octubre de 1985], [http://www.elpais.com/articulo/internacional/RIBAS/_oSCAR/MARTi_ALANiS/_JOAN_/ARZOBISPO_DE_URGELL/ANDORRA/Constitucion/Andorra/seguira/limitando/derechos/poblacion/elpepiint/19920509elpepiint_5/Tes/ El País 9 de mayo de 1992], [http://www.elpais.com/articulo/sociedad/Andorra/solo/inmigrantes/sanos/elpporint/20060714elpepisoc_8/Tes/ El País 14 de julio de 2007]&lt;/ref&gt;
+[[Archivo:Vistagenerallesescaldes.JPG|thumb|[[Arinsal]], pueblo de la parroquia de [[La Massana]].]]
+
+En cuanto a las parroquias, la más poblada es [[Andorra la Vieja]], con una población de 24.678 habitantes en 2008, seguida de [[Escaldes-Engordany]] con 16.714, [[Encamp]] con 14.234, [[San Julián de Loria]] con 9.651, [[La Massana]] 9.635, [[Canillo]] 5.625 y [[Ordino]] con sólo 3.947 habitantes, siendo la menos poblada.&lt;ref name=datos /&gt;
+
+La tasa de crecimiento demográfico es más alta que las de la mayoría de los estados europeos; en [[2008]] se estimaba en el 1,9% anual.&lt;ref name=ciapop&gt;{{cita web|url=https://www.cia.gov/library/publications/the-world-factbook/geos/an.html#|fechaacceso=5 de septiembre de 2008|título=CIA - The World Factbook|idioma=inglés}}&lt;/ref&gt; Esta tasa de crecimiento demográfico es debida a una [[tasa de natalidad]], estimada en 2008, de 10,59 por cada 1.000 habitantes, una [[tasa de mortalidad]] de 5,59 por cada 1.000 habitantes, y una altísima [[saldo migratorio|tasa neta de migración]] de 14 migrantes por cada 1.000 habitantes.&lt;ref name=ciapop /&gt; La tasa de crecimiento anual había llegado a un máximo histórico del 7,7% en [[2003]], seguida del 6,3% en 2004, siendo Canillo la parroquia con la tasa más elevada.&lt;ref name=economic&gt;{{cita web|url=http://www.ccis.ad/arxius/Informe_econ%F2mic_2005.pdf|fechaacceso=5 de septiembre de 2008|título=Informe Econòmic 2005|idioma=catalán}}&lt;/ref&gt; La [[esperanza de vida]] de los andorranos es la segunda más alta del mundo, estimada en 91,2 años (89,3 para los hombres y 93,1 para las mujeres).&lt;ref name=ciapop /&gt; La [[tasa de fertilidad]] es de 1,32 hijos por mujer. En cuanto a la [[pirámide de edades]], el 15,5% de los andorranos en 2008 tenían menos de 14 años, el 72,5% entre 15 y 64 años, y el 12% tenían 65 o más años.&lt;ref name=ciapop /&gt; La [[media de edad]] de los residentes andorranos es de 38,9 años.&lt;ref name=ciapop /&gt;
+
+=== Idiomas ===
+{{AP|Lenguas de Andorra}}
+[[Archivo:Andorra lenguas.png|thumb|upright=1.5|Gráfico de lenguas maternas de Andorra.]]
+El [[idioma oficial]] de Andorra es el [[idioma catalán|catalán]], es el único estado que lo tiene como único idioma oficial.&lt;ref name=llengua&gt;{{cita web|url=http://www.catala.ad/index.php?option=com_content&amp;task=view&amp;id=41&amp;Itemid=114|fechaacceso=5 de septiembre de 2008|título=La llengua a Andorra|idioma=catalán}}&lt;/ref&gt; Aunque la realidad lingüística es el resultado de la gran transformación demográfica que ha vivido el país desde la segunda mitad del [[siglo XX]]: en [[1940]] las personas extranjeras residentes en el país representaban sólo el 17%; en 1989 representaban el 75,7% —máximo histórico— y en 2007 son alrededor del 65%.&lt;ref name=llengua /&gt; También suele oirse el [[idioma francés|francés]], obviamente por la situación fronteriza del Principado. Recientemente ha habido un incremento significativo de la población de habla [[idioma portugués|portuguesa]].&lt;ref&gt; [http://www.aulaintercultural.org/IMG/pdf/parra.pdf Enseñanza de lengua española a adolescentes portugueses, alumnos de Secundaria y escolarizados en el Instituto Español de Andorra] ''El Instituto tiene 454 alumnos que proceden de familias inmigrantes en el Principado de Andorra. Pero no todos los alumnos del Instituto son hijos de españoles. En la actualidad y por detrás sólo de los españoles, los alumnos portugueses constituyen el segundo grupo más numeroso.''&lt;/ref&gt;
+
+De acuerdo con el [[Servei de Política Lingüística|Servicio de Política Lingüística]] del gobierno andorrano, el catalán es la [[lengua materna]] del 49,4% de la población de nacionalidad andorrana, pero sólo el 29,9% de la población total lo utiliza.&lt;ref name=estudi&gt;{{cita web|url=http://www.catala.ad/index.php?option=com_content&amp;task=view&amp;id=42&amp;Itemid=115|fechaacceso=5 de septiembre de 2008|título=Estudi sociolingüístic del 2004. Comparació amb les dades del 1995 i del 1999|idioma=catalán}}&lt;/ref&gt; Por el contrario, el español es la lengua materna más extendida entre la población del Principado. A pesar del crecimiento de la población de nacionalidades andorrana y portuguesa, el 43,4% declaró que el español es su lengua materna.&lt;ref name=estudi /&gt; El estudio muestra que en los últimos años se ha producido un deterioro de la posición de la lengua catalana en favor del español.&lt;ref name=estudi /&gt;
+
+En cuanto a la [[alfabetización]], el 100% de los ciudadanos saben leer y escribir.&lt;ref name=ciapop /&gt; El español es la lengua que ocupa el primer lugar respecto a la proporción de la población alfabetizada, seguida del francés, y en tercer lugar el catalán.&lt;ref name=estudi /&gt;
+
+Según el ''Observatorio Social de Andorra'' del [[Instituto de Estudios Andorranos]], los usos lingüísticos en Andorra son los siguientes:&lt;ref&gt;{{cita web|url=http://web.archive.org/web/20100529044524/http://www.iea.ad/cres/observatori/temes/llengua3trimestre2005.htm|fechaacceso=5 de septiembre de 2008|título=Observatori de l'Institut d'Estudis Andorrans|idioma=catalán|urlarchivo=http://web.archive.org/web/http://www.iea.ad/cres/observatori/temes/llengua3trimestre2005.htm|fechaarchivo=29 de noviembre de 2015}}&lt;/ref&gt;
+
+{| border=&quot;0&quot; style=&quot;border: 1px solid #999; background-color:#FFFFFF&quot;
+|-align=&quot;center&quot;
+! &amp;nbsp;
+! bgcolor=&quot;#CCCCCC&quot; |Lengua materna
+! bgcolor=&quot;#CCCCCC&quot; |Lengua habitual
+|-align=&quot;center&quot;
+| bgcolor=&quot;#CCCCCC&quot; | [[Idioma catalán|Catalán]] || 38,8&amp;nbsp;% || 58,3&amp;nbsp;%
+|-align=&quot;center&quot;
+| bgcolor=&quot;#CCCCCC&quot; | [[Idioma español|Español]] || 35,4&amp;nbsp;% || 37,3&amp;nbsp;%
+|-align=&quot;center&quot;
+| bgcolor=&quot;#CCCCCC&quot; | [[Idioma portugués|Portugués]] || 15&amp;nbsp;% || 3,5&amp;nbsp;%
+|-align=&quot;center&quot;
+| bgcolor=&quot;#CCCCCC&quot; | [[Idioma francés|Francés]] || 5,4&amp;nbsp;% || 2,2&amp;nbsp;%
+|-align=&quot;center&quot;
+| bgcolor=&quot;#CCCCCC&quot; | Otras || 5,5&amp;nbsp;% || 0,5&amp;nbsp;%
+|-align=&quot;center&quot;
+| colspan=&quot;3&quot; | &lt;small&gt;Fuente: [http://www.iea.ad/images/stories/Documents/CRES/Observatoris/2005/2005_3_PoliticaLinguistica.pdf Observatorio del Instituto de Estudios Andorranos]&lt;/small&gt;
+|}
+
+{| class=&quot;wikitable sortable&quot;
+|+ '''Hispanohablantes en Andorra'''
+|-
+! Censo
+! [[Lengua materna]]&lt;br /&gt;15 años
+! Porcentaje
+! [[Segunda lengua]]&lt;br /&gt;Población Total
+! Porcentaje
+|- align=right
+| align=left | [[2004]]&lt;ref name=Lenguas_3&gt;(en [[idioma catalán|catalán]]) [http://web.archive.org/web/http://www20.gencat.cat/docs/Llengcat/Documents/Dades%20origen%20territori%20i%20poblacio/Altres/Arxius/eulandorra2004.pdf Enquesta d’usos lingüístics a Andorra 2004.] ''Ministeri d’Afers Exteriors, Cultura i Cooperació''. En [[PDF]].&lt;/ref&gt; || 23.454 || 35,9% || 50.260 || 65,38%
+|- align=right
+| align=left | [[2005]]&lt;ref&gt;(en [[idioma catalán|catalán]]) [http://web.archive.org/web/http://www.iea.ad/cres/observatori/temes/llengua3trimestre2005.htm Enquesta d’usos lingüístics a Andorra Tercer quadrimestre del 2005.] ''Institut d'Estudis Andorrans''.&lt;/ref&gt; || 23.618 || 35,4% || 53.963 || 68,70%
+|- align=right
+| align=left | [[2009]]&lt;ref&gt;(en [[idioma catalán|catalán]]) [http://www.catala.ad/images/stories/Coneixements09.pdf - Coneixements i usos lingüístics de la població d’Andorra 2009.] ''Centre de Recerca Sociològica Institut d’Estudis Andorrans''.&lt;/ref&gt; || 33.305 || 39,6% || 54.906 || 65,30%
+|}
+
+=== Religión ===
+A pesar de que no hay ninguna religión oficial, la [[Constitución de Andorra|Constitución]] hace una mención explícita de la [[Iglesia católica]], a la cual garantiza &quot;''el ejercicio libre y público de sus actividades y el mantenimiento de las relaciones de colaboración especial con el Estado, de acuerdo con la tradición andorrana''&quot;, aunque también establece la [[libertad religiosa]].&lt;ref name=constitucio /&gt; Nótese también que uno de los copríncipes del Principado es el [[obispo]] católico de la [[Seo de Urgel]], y que la celebración religiosa del [[8 de septiembre]], de la [[Santuario de Meritxell|Virgen de Meritxell]] es fiesta nacional.&lt;ref name=freedom&gt;{{cita web|url=http://www.state.gov/g/drl/rls/irf/2005/51537.htm|fechaacceso=6 de septiembre de 2008|título=International Religious Freedom Report 2005|idioma=inglés}}&lt;/ref&gt; Se estima que el 95&amp;nbsp;% de la población andorrana profesa el [[cristianismo]]; entre sus denominaciones está el [[catolicismo]] (mayoritariamente), el [[protestantismo]], el [[mormonismo]] y los [[Testigos de Jehová]].&lt;ref name=freedom /&gt; Otras religiones que se practican son el [[islam]] —por los 2000 inmigrantes norteafricanos establecidos—, el [[hinduismo]].&lt;ref name=freedom /&gt;
+
+== Economía ==
+{{AP|Economía de Andorra}}
+
+Andorra no es un miembro de pleno derecho en la [[Unión Europea]] pero, desde [[1990]],&lt;ref&gt;{{cita web|url=http://www.ccis.ad/ca/legislacio-andorrana-interes/doc_download/209-acord-d-uni%C3%B3-duanera.html|fechaacceso=9 de marzo de 2014|título=Acord d'unió duanera|idioma=catalán}}&lt;/ref&gt; goza de una relación especial y es tratado como si fuera parte de ella para el comercio en bienes manufacturados (exonerados de impuestos) y como no miembro de la UE para los productos agrícolas.
+
+Tradicionalmente Andorra ha sido un país agrícola y ganadero aunque, desde la década de los [[años 1950|50]], el [[sector primario]] ha ido perdiendo importancia. La producción [[Agricultura|agrícola]] está limitada, ya que sólo el 2% de la tierra es cultivable, plantándose [[tabaco]] en la casi totalidad de sus campos, y la principal actividad [[Ganadería|ganadera]] es la crianza bovina y equina, basadas en un sistema de explotación [[Agricultura extensiva|extensivo]]. En el [[sector secundario]] predominan las industrias de transformación ([[cigarrillo]]s, [[puro]]s y muebles) e industrias primarias. Actualmente el [[sector servicios|sector terciario]] representa, según estimaciones, el 80% del [[PIB]] andorrano, siendo el [[turismo]] el sostén principal de la economía andorrana. Nueve millones de personas la visitan anualmente, atraídas por su condición de [[paraíso fiscal]], sus [[estación de esquí|estaciones de esquí]] y el diferencial de precios en el [[comercio]] respecto de los países vecinos, aunque éste último se ha erosionado recientemente mientras las economías francesa y española se han abierto, proporcionando una disponibilidad más amplia de bienes y tarifas más bajas. En el año [[2005]], el país recibió a 11.049.490 visitantes&lt;ref name=economic /&gt; de los cuales 2.418.409 eran turistas y 8.631.081 excursionistas. Del total de visitantes, el 57,2% eran españoles, el 39,8% franceses y sólo un 3,0% venían de otros países.
+
+El sector financiero, constituido por 5 entidades bancarias pertenecientes a la [[Asociación de Bancos Andorranos]] que, a su vez, es miembro de la [[Federación Bancaria de la Unión Europea|Federación Bancaria]] de la Unión Europea,&lt;ref&gt;{{cita web|url=http://www.fbe.be/content/Default.asp?PageID=259|fechaacceso=20 de febrero de 2009|título=European Banking Federation|idioma=inglés|urlarchivo=http://web.archive.org/web/http://www.fbe.be/content/Default.asp?PageID=259|fechaarchivo=29 de noviembre de 2015}}&lt;/ref&gt; también contribuye sustancialmente a la economía gracias al [[secreto bancario]]. Debido a la presión ejercida por [[Nicolas Sarkozy]], que amenazó con dimitir como jefe de Estado andorrano si Andorra continuaba considerada paraíso fiscal,&lt;ref&gt;{{cita web|url=http://www.rtve.es/noticias/20090325/sarkozy-dimitira-como-coprincipe-andorra-hay-avances-contra-los-paraisos-fiscales-g20/253728.shtml|fechaacceso=26 de marzo de 2009|título=Sarkozy dimitirá como copríncipe de Andorra si no hay avances contra los paraísos fiscales en el G20|urlarchivo=http://web.archive.org/web/http://www.rtve.es/noticias/20090325/sarkozy-dimitira-como-coprincipe-andorra-hay-avances-contra-los-paraisos-fiscales-g20/253728.shtml|fechaarchivo=29 de noviembre de 2015}}&lt;/ref&gt; el [[10 de marzo]] de [[2009]], el gobierno andorrano firmó la Declaración de París con Francia para, en la cumbre [[Cumbre del G-20 de Londres|londinense]] del [[Grupo de los 20 (países industrializados y emergentes)|G-20]], dejar de ser considerado paraíso fiscal por la [[Organización para la Cooperación y el Desarrollo Económico|OCDE]].&lt;ref name=entrevista&gt;{{cita web|url=http://web.archive.org/web/http://www.tv3.cat/videos/1083359|fechaacceso=17 de marzo de 2009|título=Els matins de TV3|idioma=catalán}}&lt;/ref&gt;&lt;ref&gt;{{cita web|url=http://www.elperiodico.com/default.asp?idpublicacio_PK=46&amp;idioma=CAS&amp;idnoticia_PK=597526&amp;idseccio_PK=1009|fechaacceso=23 de marzo de 2009|título=La presión externa lleva a Andorra a reformar su modelo económico}}&lt;/ref&gt; Andorra, por el momento, ha firmado tratados de intercambio de información fiscal con [[Austria]], [[Mónaco]], [[Liechtenstein]], [[San Marino]], [[Francia]], [[Bélgica]], [[Argentina]], [[Países Bajos]], [[Portugal]] y [[España]].&lt;ref&gt;{{cita web|url=http://economia.elpais.com/economia/2011/02/10/actualidad/1297326778_850215.html|fechaacceso=10 de febrero de 2011|título=Andorra deja de ser paraíso fiscal para España}}&lt;/ref&gt; Sin embargo, no ha firmado el acuerdo de 28 de octubre de 2014 del [[Foro Global sobre Transparencia e Intercambio de Información Tributaria]], auspiciado por el llamado G-5 y avalado por la [[OCDE]].
+
+Los agentes sociales son:
+* Organizaciones sindicales. En [[diciembre de 2008]], el número de asalariados era de 40.694.&lt;ref name=datos /&gt;
+** [[Sindicato Andorrano de Trabajadores|SAT]]
+** [[Unión Sindical de Andorra|USdA]]
+* Organizaciones empresariales
+** [[Confederación Empresarial Andorrana|CEA]]
+** [[Asociación de la Micro, Pequeña y Mediana Empresa de Andorra|PIME]]
+
+=== Moneda ===
+{{AP|Moneda andorrana}}
+{{VT|Monedas de euro de Andorra}}
+Andorra ha carecido históricamente de moneda oficial.&lt;ref name=1a&gt;http://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:32004D0548&amp;from=EN&lt;/ref&gt; Hasta la introducción del [[euro]] en [[España]] y [[Francia]], la [[peseta española]] y el [[franco francés]] fueron ''de facto'' las monedas usadas allí. A partir de [[2002]], el [[euro]] se convirtió, también ''de facto'', en la moneda andorrana.
+
+En [[2011]] se firmó un acuerdo monetario&lt;ref&gt;http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2011:369:0001:0013:ES:PDF&lt;/ref&gt; que le permitiría a Andorra usar el euro de manera oficial así como acuñar sus propias monedas de euro desde el 1 de julio de [[2013]]. Este acuerdo dependía de la ratificación andorrana, la cual sucedió en abril de [[2012]], momento en que entró en vigor.&lt;ref&gt;http://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:22012X1005(01)&amp;rid=6&lt;/ref&gt; En octubre de [[2012]] las autoridades andorranas pospusieron la emisión de monedas en euro hasta [[2014]], año en el que finalmente fue emitida la primera serie.
+
+Tradicionalmente Andorra emitía monedas denominadas «Diners» que no tenían curso legal sino que eran con fines de coleccionismo. Estas monedas podrán seguir siendo emitidas.
+
+== Infraestructura ==
+
+=== Transportes ===
+
+Andorra se comunica con el exterior a través de las vías terrestres. No dispone de [[tren]] (aunque existe un proyecto de línea [[Ferrocarril|ferroviaria]] [[Línea Barcelona-Andorra|Barcelona-Andorra]], conectando la [[Seo de Urgel]] con [[Puigcerdá]], además de la estación Andorra-[[L'Hospitalet-près-l'Andorre|l'Hospitalet]] en territorio francés),&lt;ref&gt;{{cita web|url=http://www.gazette-ariegeoise.fr/621_Inauguration-de-la-gare-de-l-Hospitalet-Mieux-que-la-gare-de-Perpignan.html|fechaacceso=13 de febrero de 2009|título=Inauguration de la gare de l'Hospitalet près l'Andorre|idioma=francés}}&lt;/ref&gt; [[Metro (ferrocarril)|metro]] o [[aeropuerto]]s (desestimando el apoyo al [[aeropuerto de Seo de Urgel]] en beneficio del [[aeropuerto de Lérida]]), pero tiene una infraestructura de [[carretera]]s lo bastante amplia para poder cubrir la mayor parte del país.
+
+Actualmente están en curso diversas obras en infraestructuras viarias como, por ejemplo, la ampliación de carriles en las carreteras principales, la supresión de [[Punto negro|puntos negros]] en la red viaria y la construcción de varios túneles, de los cuales se han iniciado trabajos en el [[Túnel de los Dos Valiras]].&lt;ref&gt;{{cita web|url=http://www.mot.ad/Index.html|fechaacceso=8 de noviembre de 2009|título=Pla sectorial de noves infraestructures viàries|idioma=catalán|urlarchivo=http://web.archive.org/web/http://www.mot.ad/Index.html|fechaarchivo=29 de noviembre de 2015}}&lt;/ref&gt;
+
+También es posible acceder al Principado con las líneas regulares de [[autobús]], que conectan Andorra con prácticamente cualquier punto de [[Europa]] o a través de los [[helipuerto]]s que hay en [[Andorra la Vieja]] y en [[La Massana]]. Obviamente no dispone de accesos por [[estado sin litoral|mar]], ni tampoco ningún [[río]] navegable.
+
+=== Telecomunicaciones ===
+{{VT|Comunicaciones de Andorra}}
+
+{{AP|Ràdio i Televisió d'Andorra}}
+La primera emisora de radio comercial en emitir desde Andorra fue [[Radio Andorra|Ràdio Andorra]] que estuvo en activo desde [[1939]] hasta [[1981]]. El [[12 de octubre]] de [[1989]], el ''Consell General'' estableció la radio y la televisión como servicios públicos esenciales al crear la entidad gestora [[Organismo de Radio y Televisión de Andorra|ORTA]] convirtiéndose, el [[13 de abril]] de [[2000]], en la sociedad pública ''Ràdio i Televisió d'Andorra, S.A''.
+En [[1990]] se fundó la radio pública [[Ràdio Nacional d'Andorra]]. En [[1998]], operaban 15 emisoras [[Frecuencia modulada|FM]] y el número de aparatos de radio en [[1997]] era de 16.000.
+Como canal de televisión autóctono únicamente existe la cadena pública nacional [[Andorra Televisió]], creada en [[1995]], aunque el Gobierno promueve la emisión de canales internacionales dentro del Principado. Las primeras emisiones analógicas de televisión fueron con las cadenas españolas [[TVE-1]], [[TVE-2]] y [[TV3 (Cataluña)|TV3]] y las francesas [[TF1]], [[France 2]] y [[France 3]] aunque en años posteriores, y aún emitiendo en analógico, se fueron introduciendo el canal catalán [[El 33|Canal 33]], la cadena [[Antena 3]] y la francesa [[M6 (TV)|M6]]. Con la llegada de la [[Televisión Digital Terrestre|TDT]], el [[25 de septiembre]] de 2007, la oferta televisiva se amplió con cadenas españolas como [[Cuatro (canal de televisión)|Cuatro]], [[Telecinco]], [[La Sexta]], el canal [[3/24]], el canal francés [[NRJ12]], la portuguesa [[Rádio e Televisão de Portugal|RTP]], la estadounidense [[CNN International]], la británica [[BBC World]] y el francoalemán [[Arte (TV)|ARTE]]. Actualmente, solo emite en TDT.
+
+El proveedor de [[telefonía]] fija, móvil e Internet es ''[[Servei de Telecomunicacions d'Andorra|Andorra Telecom]]''.&lt;ref&gt;{{cita web|url=http://cl.invertia.com/noticias/noticia.aspx?idNoticia=200812101226_EFE_ET3257|fechaacceso=13 de febrero de 2009|título=STA adopta el nombre de Andorra Telecom}}&lt;/ref&gt; La red telefónica está compuesta por conexiones de enlaces de radio con [[microondas]] entre centrales para las conexiones locales, y circuitos terrestres hacia España y Francia para las comunicaciones internacionales. Andorra Telecom dispone en la actualidad de tres enlaces internacionales, uno hacia Francia con [[France Télécom]] y dos hacia España con [[Telefónica International Wholesale Services]] e [[Interoute]].&lt;ref&gt;[http://bgp.he.net/AS6752 Tránsitos de Andorra Telecom] en el tookit BGP de [[Hurricane Electric]]&lt;/ref&gt;
+Desde 2010 una red [[FTTH]] cubre el 100% de los hogares andorranos, ofreciendo hasta 100 Mbps simétricos. Además, se pretenden dejar de utilizar la antigua red de cobre en 2015.&lt;ref&gt;[http://bandaancha.eu/articulo/7506/fibra-llega-100-hogares-andorra-preven-jubilar-cobre-plazo-5-anos La fibra llega al 100% de los hogares de Andorra y prevén jubilar el cobre en un plazo de 5 años]&lt;/ref&gt;
+
+El servicio de [[correo]]&lt;ref&gt;{{cita web|url=http://www.directe.cat/acn/el-correu-intern-a-andorra-deixara-de-ser-gratuit-a-partir-de-lany-vinent|fechaacceso=10 de febrero de 2009|título=El correu intern ja no és gratuït|idioma=catalán}}&lt;/ref&gt; es atendido por ''[[Sociedad Estatal Correos y Telégrafos (España)]]'' desde [[1928]], y ''[[La Poste (Francia)]]'' desde [[1931]].
+En 2004, se introdujeron los [[código postal|códigos postales]] según el orden protocolario de las parroquias:
+* Canillo: AD100.
+* Encamp: AD200.
+* Ordino: AD300.
+* La Massana: AD400.
+* Andorra la Vieja: AD500.
+* San Julián de Loria: AD600.
+* Escaldes-Engordany: AD700.
+
+== Cultura ==
+{{AP|Cultura de Andorra}}
+La [[Biblioteca Nacional de Andorra|Biblioteca Nacional]] y los [[Archivos Nacionales de Andorra|Archivos Nacionales]] fueron creados en [[1974]] y [[1975]] respectivamente, y se localizan en la [[Andorra la Vieja|capital]].
+
+Además existen varios [[museo]]s: [[Casa Rull]] en [[Sispony]], la [[Farga Rossell]] en La Massana, y el [[Centro de interpretación Andorra Románica]] en [[Pal (andorra)|Pal]], el [[museo Viladomat]], el [[museo de Maquetas de Arte Románico]] y el [[museo del Perfume]] en Escaldes-Engordany, el [[museo de miniaturas de Nicolaï Siadristy]], la [[Casa de Areny-Plandolit]] y el [[museo postal de Andorra]] en Ordino, el [[Museo Nacional del Automóvil (Andorra)|Museo Nacional del Automóvil]] en Encamp, la [[Casa de la Vall]], con una sección dedicada a la [[filatelia]] y [[numismática]], en Andorra la Vieja y el [[Museo del Tabaco]] en San Julián de Loria.&lt;ref&gt;{{cita web|url=http://web.archive.org/web/http://www.tourisme-andorre.net/Telechargements/Museus_cat_fr.pdf|fechaacceso=14 de febrero de 2009|título=Musées d'Andorre|idioma=francés}}&lt;/ref&gt;
+
+=== Educación ===
+En Andorra conviven tres [[sistema educativo|sistemas educativos]] con centros de [[educación primaria]], [[educación secundaria|secundaria]] y [[Formación Profesional]]:
+* Andorrano. Dependiente del [[Ministerio de Educación, Cultura y Juventud de Andorra|Ministerio de Educación, Cultura y Juventud]].
+* Español. Dependiente del [[Ministerio de Educación, Cultura y Deporte|Ministerio de Educación de España]].
+* Francés. Dependiente del Ministerio de Educación Nacional de Francia.
+
+Además de la oferta pública, hay que añadir la existencia de 2 centros congregacionales que se rigen por el sistema español aunque mayoritariamente imparten las clases en [[idioma catalán|catalán]] promoviendo, también, el uso del [[idioma francés|francés]] y el [[idioma español|español]]. Para el curso escolar 2005-2006, en el sistema francés estaban inscritos 3.636 alumnos, en el andorrano 3.612, y en el español 3.541.&lt;ref&gt;{{cita web|url=http://www.estadistica.ad/serveiestudis/publicacions/Publicacions/Andorra%20en%20Xifres_cast.pdf|fechaacceso=12 de febrero de 2009|título=Andorra en cifras 2007}}&lt;/ref&gt;
+
+En [[1997]] se fundó la [[Universidad de Andorra]], de carácter público y que tiene firmados convenios de colaboración con diversas [[Universidades de España|universidades españolas]] y francesas. Esta universidad se compone de tres centros:
+* Escuela de [[Enfermería]]. Se imparte la carrera de Enfermería.
+* Escuela de Informática y Gestión. Se imparten las carreras de Administración de Empresas, Ciencias de la Educación e [[Informática]].
+* Centro de Estudios Virtuales. Se imparten asignaturas virtuales, estudios de Primer o Segundo Ciclo, [[postgrado]]s y cursos de actualización.
+* Centro de Enseñanza Profesional de Aixovall, situado en San Julián de Loria.
+
+Durante los meses de verano organiza la [[Universidad de Verano (Andorra)|Universidad de Verano]], cuyo actual presidente de honor es [[Juan Goytisolo]] relevando, en el [[2006]], a [[José Luis Sampedro]].
+
+=== Arquitectura ===
+
+{{VT|Arte románico de Andorra}}
+Andorra cuenta con un gran número de monumentos [[Arquitectura románica|románicos]]. La iglesia de [[Santa Coloma de Andorra|Santa Coloma]], construida entre los siglos [[Siglo IX|IX]] y [[Siglo X|X]] d.C es una de las pocas iglesias románicas del mundo con [[campanario]] cilíndrico, fechado en el [[siglo XII]].
+
+=== Literatura ===
+La [[literatura]] andorrana tiene sus orígenes en el [[siglo XVIII]]. [[Antoni Fiter i Rossell]] escribió un libro sobre la historia, el gobierno y los [[Derecho consuetudinario|usos y costumbres]] de Andorra llamado ''[[Manual Digest|Manual Digest de las Valls neustras de Andorra]]'' en [[1748]]. Esta obra también contiene los documentos de [[Carlomagno]] y [[Ludovico Pío]]. Actualmente el original se conserva en la casa Fiter-Riba, de Ordino, aunque existe una copia en el ''[[Armario de las siete llaves]]'' de la Casa de la Vall y otra en los archivos del Obispado de La Seo de Urgel. Posteriormente, en [[1763]], el párroco [[Antoni Puig]] escribió el ''Politar andorrà'', obra donde se describen los privilegios del Principado y las atribuciones de las autoridades. El poeta catalán [[Jacinto Verdaguer]] se inspiró, en parte, con el valle de [[Valle de Setúria|Seturia]] para su obra [[Canigó (poema)|Canigó]], publicada en [[1886]].
+
+Como autores de literatura contemporánea se pueden citar a [[Antoni Morell i Mora]], [[Albert Salvadó|Albert Salvadó i Miras]], [[Teresa Colom i Pich]] y [[Albert Villaró i Boix]] participando algunos de estos escritores en la edición del 2007 de la [[Feria del Libro de Fráncfort]].&lt;ref&gt;{{cita web|url=http://www.vilaweb.cat/www/noticia?p_idcmp=2257916|título=Andorra participarà a la Fira de Frankfurt|idioma=catalán}}&lt;/ref&gt; Así mismo, el Gobierno andorrano, junto con editoriales catalanas, convoca anualmente el [[Premio Carlomagno de novela|Premio Carlomagno]] y, desde el [[2007]], el [[Premio Ramon Llull de novela|Premio Ramon Llull]].
+
+=== Música ===
+[[Archivo:Monumentoandorrano.JPG|thumb|Fuente pública representando el baile del contrapaso.]]
+{{VT|Andorra en el Festival de la Canción de Eurovisión}}
+El evento más importante en la vida cultural andorrana es el [[Festival internacional de jazz de Escaldes-Engordany|Festival internacional]] de [[jazz]] de [[Escaldes-Engordany]], celebrado durante el mes de [[julio]], donde intérpretes como [[Miles Davis]], [[Fats Domino]] y [[B.B. King]] han participado. En el [[Auditorio Nacional de Andorra]], ubicado en [[Ordino]], se celebra el Festival Internacional [[Narciso Yepes]],&lt;ref&gt;[http://www.ordino.ad/estiu/cast/esdeveniments/yepes/index.html Festival Internacional Narciso Yepes]&lt;/ref&gt; dedicado a la [[música clásica]] y al jazz. En la capital, durante las noches de los jueves de julio y agosto, también se realiza el ''Dijous de Rock'',&lt;ref&gt;[http://web.archive.org/web/http://www.dijousderock.com/ Dijous de Rock]&lt;/ref&gt; donde grupos locales y, puntualmente, españoles, ofrecen conciertos al público asistente. La asociación [[Centre de la Cultura Catalana]] organiza, desde [[1999]], el [[Premio Carles Sabater]] eligiendo a la mejor canción en catalán del año.&lt;ref&gt;{{cita web|url=http://www.carlessabater.com/premi.htm|fechaacceso=18 de noviembre de 2010|título=Premio Carles Sabater|idioma=catalán}}&lt;/ref&gt;&lt;ref&gt;{{cita web|url=http://ccandorra.wordpress.com/|fechaacceso=18 de noviembre de 2010|título=Centre de la Cultura Catalana|idioma=catalán}}&lt;/ref&gt;
+
+La [[Orquesta Nacional de Cámara de Andorra]], dirigida y fundada en [[1992]] por el [[violinista]] [[Gerard Claret]], celebra un certamen de canto con fama internacional, avalado por [[Montserrat Caballé]], además de haber ofrecido conciertos en España, Francia y [[Bélgica]] y participar regularmente en los ciclos del [[Palacio de la Música Catalana]].
+La [[música tradicional]] andorrana, relacionada con la de otras regiones [[Pirineos|pirenaicas]], cuenta con danzas características como la ''Marratxa'', recopiladas por la folclorista [[Palmira Jaquetti i Isant]].
+
+En [[1968]] Andorra participó, por primera vez, en el [[Festival Internacional da Canção]], representada por [[Romuald]], con la canción &quot;Le Bruit des Vagues&quot;. En [[1969]] volvió a representar dicho artista al país, con la canción &quot;Tous les printemps du monde&quot;. En [[1970]] lo hizo la cantante [[Rosa Morena]] con el tema &quot;Como un pájaro&quot; ''(Como ave)'', la cual, obtuvo el ''Premio de la Crítica de Río de Janeiro''.&lt;ref&gt;{{cita web |url= http://hemeroteca-paginas.mundodeportivo.com/EMD01/HEM/1970/11/05/MD19701105-027.pdf |título=Rosa Morena, premio de la prensa en el Festival de Río |fechaacceso=24 de mayo de 2015 |fecha=5 de noviembre de 1970 |editorial= Mundo Deportivo }}&lt;/ref&gt;
+
+En el [[Festival de la Canción de Eurovisión 2004|2004]], Andorra participó, por primera vez, en el [[Festival de la Canción de Eurovisión]] representada por [[Marta Roure]]. Este hecho atrajo la atención de los medios de comunicación de [[Cataluña]], ya que fue la primera canción entonada en [[Idioma catalán|catalán]]. La canción fue eliminada en la semifinal, así como las composiciones del [[Festival de la Canción de Eurovisión 2005|2005]] (interpretada por [[Marian van de Wal]]), [[Festival de la Canción de Eurovisión 2006|2006]] (interpretada por [[Jennifer Serrano|Jenny]]), [[Festival de la Canción de Eurovisión 2007|2007]] (interpretada por [[Anonymous (banda)|Anonymous]]), [[Festival de la Canción de Eurovisión 2008|2008]] (interpretada por [[Gisela Lladó Cánovas|Gisela]]) y [[Festival de la Canción de Eurovisión 2009|2009]] (interpretada por la cantante [[Dinamarca|danesa]] [[Susanne Georgi]]).
+
+=== Fiestas oficiales ===
+
+Los días festivos son de cumplimiento obligatorio, retribuidos y no recuperables para las industrias en general, oficinas, establecimientos bancarios, peluquerías, transporte y distribución de mercancías y servicios no relacionados directamente con el turismo.&lt;ref&gt;{{cita web|url=http://www.ccis.ad/ca/horaris-comercials.html|fechaacceso=3 de febrero de 2012|título=Calendario comercial 2011|idioma=catalán}}&lt;/ref&gt;
+
+{| &lt;align=&quot;center&quot;&gt; class=wikitable
+|+ '''Fiestas'''
+|- style=&quot;background:#efefef;&quot;
+! Fecha
+! Nombre en castellano
+! Nombre local
+|-
+
+| 1 de enero
+|[[Año Nuevo]]
+|''Cap d'any''
+|-
+
+| 6 de enero
+|[[Día de Reyes|Epifanía]]
+|''Dia de Reis''
+|-
+
+| 14 de marzo
+|Día de la Constitución
+|''Dia de la Constitució''
+|-
+
+| 3 de abril
+|[[Viernes Santo]]
+|''Divendres Sant''
+|-
+
+| 6 de abril
+|[[Lunes de Pascua]]
+|''Dilluns de Pentecosta''
+|-
+
+| 1 de mayo
+|[[Día Internacional de los Trabajadores]]
+|''Festa del Treball''
+|-
+
+| 15 de agosto
+|[[Día de la Asunción]]
+|''Assumpció''
+|-
+
+| 8 de septiembre
+| Nuestra Señora de Meritxell
+| ''Mare de Déu de Meritxell''
+|-
+
+| 1 de noviembre
+|[[Día de Todos los Santos]]
+|''Tots Sants''
+|-
+
+| 8 de diciembre
+|[[Inmaculada Concepción|Día de la Inmaculada Concepción]]
+|''Immaculada Concepció''
+|-
+
+| 25 de diciembre
+| [[Navidad]]
+| ''Nadal''
+|-
+
+| 26 de diciembre
+|[[Día de San Esteban]]
+|''Sant Esteve''
+|-
+|}
+
+Desde el [[2009]], cuando el [[14 de marzo]] coincide con [[sábado]], el gobierno andorrano permite abrir a las empresas dedicadas al comercio, lo cual origina protestas por parte de [[sindicato]]s, asociaciones o, en el caso de 2009, del Común de [[Andorra la Vieja]].&lt;ref name=entrevista /&gt;
+
+== Deporte ==
+{{VT|Andorra en los Juegos Olímpicos}}
+
+=== Juegos de los Pequeños Estados de Europa ===
+{{AP|Juegos de los Pequeños Estados de Europa de Andorra 1991|Juegos de los Pequeños Estados de Europa de Andorra 2005}}
+Andorra fue sede,&lt;ref&gt;[http://web.archive.org/web/http://www.andorra2005.ad/ca/ Andorra 2005] (multilingüe)&lt;/ref&gt; en [[1991]] y [[2005]], de los [[Juegos de los Pequeños Estados de Europa]], competición que al amparo del COI se organiza para países europeos con menos de 1 millón de habitantes.
+
+=== Baloncesto ===
+En la temporada [[1991]]-[[1992|92]], el [[Básquet Club Andorra]] consigue el ascenso a la [[Liga ACB]], de la mano del entrenador [[Edu Torres]]. El equipo de [[baloncesto]] consigue el patrocinio de la empresa relojera [[Festina]], y pasa a denominarse [[Festina Andorra]].
+
+En la temporada 2014-15, el [[Básquet Club Andorra]] vuelve a conseguir el ascenso a la [[Liga ACB]], con el nombre de [[River Andorra]].
+
+=== Deportes de invierno ===
+[[Archivo:Perrosdetrineo2.JPG|thumb|[[Perro de trineo|Perros de tiro]].]]
+[[Archivo:Estacionesquiandorra.JPG|thumb|Grandvalira en la parroquia de [[Encamp]].]]
+[[Archivo:Estació d'esquí Pas de la Casa, Andorra, 2006.JPG|thumb|[[Telesilla]] en Grandvalira.]]
+El deporte nacional es el [[esquí]]. La capital, Andorra la Vieja, intentó ser sede de los [[Juegos Olímpicos de Invierno]] del [[Juegos Olímpicos de Vancouver 2010|2010]], pero no se clasificó para la final. También se estudió una candidatura conjunta con [[Zaragoza]] para los juegos del [[2018]].&lt;ref&gt;{{cita web|url=http://www.nevasport.com/noticias/d/15252/candidatura-olimpica-conjunta-de-andorra--catalunya-y-aragon|fechaacceso=9 de enero de 2009|título=Candidatura olímpica conjunta de Andorra, Aragón y Catalunya}}&lt;/ref&gt; El Principado también albergó etapas de [[Pirena]], una competición de [[mushing]] iniciada en [[1990]].
+
+Andorra tiene dos dominios esquiables formados por la unión de varias estaciones de esquí, y un complejo destinado al ocio donde se puede practicar [[esquí de fondo]]:
+* [[Grandvalira]].&lt;ref&gt;{{cita web|url=http://www.grandvalira.com/|fechaacceso=9 de marzo de 2014|título=Grandvalira}}&lt;/ref&gt; Surgida de la fusión de [[Pas de la Casa-Grau Roig]] y [[Soldeu-El Tarter]]. La pista Avet, situada en el pueblo de [[Soldeu]] alberga pruebas internacionales de esquí como la [[Copa del Mundo de Esquí Alpino]].&lt;ref&gt;{{cita web|url=http://www.worldcupsoldeu.com/es/pista-avet|fechaacceso=9 de marzo de 2014|título=World Cup Soldeu}}&lt;/ref&gt;
+* [[Vallnord]].&lt;ref&gt;{{cita web|url=http://www.vallnord.com/es|fechaacceso=9 de marzo de 2014|título=Vallnord}}&lt;/ref&gt; Surgida de la alianza entre las estaciones de esquí de Pal, Arinsal y [[Ordino-Arcalís]].
+* [[Naturlandia]].&lt;ref&gt;{{cita web|url=http://www.naturlandia.ad/|fechaacceso=9 de marzo de 2014|título=Naturlandia}}&lt;/ref&gt; Ubicado en la zona de [[La Rabassa]], con una cota máxima de 2160 msnm y una cota mínima de 1960 msnm. Tiene 15 km de pistas marcadas, distribuidos en 5 pistas de diferente dificultad.
+
+=== Fútbol ===
+{{VT|Selección de fútbol de  Andorra}}
+
+La [[Federación Andorrana de Fútbol]] organiza la liga de fútbol en el Principado con [[Primera División de Andorra|Primera]] y [[Segunda División de Andorra|Segunda]] división, así como la ''[[Copa Constitució]]'' y la [[Supercopa andorrana|Supercopa]], donde se enfrentan el campeón de Liga y de Copa. El ganador de Primera juega la ronda previa de la [[Liga de Campeones de la UEFA]]. Los partidos se juegan en el [[Campo de deportes de Aixovall|Campo Comunal de Andorra la Vieja]].
+
+La Selección de fútbol participa en competiciones oficiales, aunque nunca ha estado en ningún [[Copa Mundial de Fútbol|Mundial]] ni [[Eurocopa]] y su primera y única victoria oficial fue contra [[Selección de fútbol de Macedonia|Macedonia]], por 1-0 con gol de [[Marc Bernaus]] en el minuto 60, en un partido disputado en el [[Estadio Comunal de Aixovall|Estadio Comunal de Andorra la Vieja]].
+
+La liga andorrana de [[fútbol sala]] está dividida en 2 categorías, y el campeón de [[Primera División de Fútbol Sala de Andorra|Primera división]] juega la fase previa de la [[Copa de la UEFA de fútbol sala]].
+
+El [[Futbol Club Andorra]] juega en Primera Territorial catalana de la [[Liga española de fútbol]] al estar inscrito en la [[Real Federación Española de Fútbol]].
+
+=== Fútbol sala ===
+
+El [[Futbol Club Andorra]] tiene una sección de fútbol sala, cuyo equipo es el [[Butagaz Andorra]], que milita en la [[Liga Nacional de Fútbol Sala|División de Plata]] española.
+
+=== Ciclismo ===
+
+En [[1993]],&lt;ref&gt;{{cita web|url=http://relojesfestina.homestead.com/tour_de_france.html|fechaacceso=23 de febrero de 2009|título=El equipo Festina en el Tour de Francia}}&lt;/ref&gt; el equipo de [[ciclismo]] [[Festina (equipo ciclista)|Festina]] cambió su domicilio social al Principado y hasta [[2001]], año de su desaparición, participó en varias ediciones del [[Tour de Francia]], [[Giro de Italia]] y [[Vuelta ciclista a España]].
+
+[[Melcior Mauri]] impulsó el equipo [[Andorra-Grandvalira]].&lt;ref&gt;{{cita web|url=http://www.biciciclismo.com/cas/site/noticias-ficha.asp?id=6257|fechaacceso=23 de febrero de 2009|título=Melchor Mauri: &quot;La única viabilidad del equipo era inscribirlo en Andorra&quot;}}&lt;/ref&gt;&lt;ref&gt;{{cita web|url=http://www.biciciclismo.com/cas/site/noticias-ficha.asp?id=8182|fechaacceso=23 de febrero de 2009|título=El maillot del Andorra-Grandvalira}}&lt;/ref&gt;
+
+=== Hockey sobre patines ===
+Andorra posee una selección de hockey sobre patines, que compite desde 1990. En general compite en el [[Campeonato mundial de hockey sobre patines masculino#Campeonato Mundial B|Campeonato Mundial B]] (jugó 6 veces el [[Campeonato mundial de hockey sobre patines masculino#Campeonato Mundial A|Campeonato Mundial A]]), luego de la generación de dos divisiones del [[Campeonato mundial de hockey sobre patines masculino]]. Obtuvo el Campeonato Mundial B de Hockey sobre patines en el año 2002, jugado en Montevideo, Uruguay y en 1992 como local. Un tercer puesto en el campeonato jugado en Macao (2004) y un cuarto lugar en 1998 (Macao) y 1996 (Ciudad de México).
+
+=== Otros deportes ===
+Se podría decir que en Andorra se practican todos los deportes. Aparte del [[ciclismo]], el [[fútbol]] y el [[baloncesto]] también es muy popular el [[rugby]] con la [[Selección de rugby de Andorra]]; el [[balonmano]] con el [[Balonmano Club Concordia]], la [[natación]], el [[judo]], la [[gimnasia]], el [[voleibol]] y muchos más.
+
+=== Deportistas ===
+El futbolista [[Albert Celades]] no es originario del país, pero vivió unos cuantos años antes de ir a [[La Masía]] del FC Barcelona. Su último club fue el [[Red Bull New York]] y también jugó en el [[Fútbol Club Barcelona]], [[Real Madrid Club de Fútbol|Real Madrid]] y [[Real Zaragoza]].
+
+[[Cyril Despres]], piloto de motos en el [[Rally Dakar|Rally París-Dakar]] y vencedor de su categoría en las ediciones de [[Rally Dakar de 2005|2005]], [[Rally Dakar de 2007|2007]] y [[Rally Dakar de 2010|2010]], tiene establecida su residencia en [[Arinsal]].
+[[Marc Bernaus]], actual futbolista del [[Girona Futbol Club|Girona F.C.]], ex-futbolista del [[Getafe Club de Fútbol|Getafe F.C.]] y otros equípos de la [[Ligas de fútbol de España|liga española de fútbol]], es natural de la parroquia de [[Encamp]]. [[Albert Llovera]], piloto de [[rally|rally]], ha competido en el [[Campeonato del Mundo de Rallyes|Campeonato del Mundo]] y en el [[Campeonato de España de Rallyes|Campeonato de España de Rally sobre asfalto]] y [[Campeonato de España de Rallyes de Tierra|tierra]]. Sus inicios como deportistas fueron en el [[esquí]].
+[[Dani Fornell]], esquiador profesional de Freeride en el [[Freeride World Tour]], accedió al circuito mundial en 2013, tiene establecida su residencia en [[La Cortinada]].
+
+El jugador de baloncesto [[Quino Colom]] es natural de Andorra. El actual base del Bilbao Basket, formado en el River Andorra, ha sido internacional con España en categorías inferiores. Además, en 2012 jugó con la Selección B un torneo en Brasil.
+
+== Véase también ==
+* {{Portal|Andorra}}
+* [[Selección de rugby de Andorra|Selección de rugbi de Andorra]]
+* [[Resolución 848 del Consejo de Seguridad de las Naciones Unidas]]
+
+== Referencias ==
+{{listaref|3}}
+
+== Bibliografía ==
+* {{cita libro|apellido=Parrilla García|nombre=José Antonio|editorial=NONO-ART, S.A|título=Breu història d'Andorra|año=1983|ubicación=Barcelona|isbn=84-85620-07-0}}
+* {{cita libro|editorial=Ministeri d'Educació, Cultura i Joventut|título=Geografia i història d'Andorra|año=1993|ubicación=Andorra}}
+* {{cita libro|apellido=Viadiu i Vendrell|nombre=Francesc|editorial=Rafael Dalmau Editor|título=Andorra, entre el torb i la Gestapo|año=2000|ubicación=Barcelona|isbn=978-84-232-0618-6}}
+* {{cita libro|apellido=Institut d'Estudis Andorrans|editorial=Pagès Editors|título=Anàlisi de la situació laboral a Andorra|año=2005|ubicación=Lérida|isbn=978-99920-2-028-9}}
+* {{cita libro|apellido=Valls Oliva|nombre=Àlvar|editorial=Fundació Crèdit Andorrà|título=Diccionari Enciclopèdic d'Andorra|año=2006|ubicación=Andorra la Vieja|isbn=978-99920-1-629-9}}
+* {{cita libro|editorial=Foment de la comunicació i la imatge|título=Andorra. La guía 2008|año=2008|ubicación=Andorra|isbn=978-99920-1-677-0}}
+
+== Enlaces externos ==
+{{Interwiki país|code=ca|idioma=catalán}}
+{{commons|Andorra}}
+{{Wikiviajes|Andorra}}
+{{wikinoticias|Andorra}}
+{{Wikcionario|Andorra}}
+{{wikiatlas|Andorra}}
+* [http://visitandorra.com/es/home/ Portal oficial del Principado de Andorra]
+
+;Política
+* [http://www.govern.ad/ Gobierno de Andorra] (en catalán)
+* [http://www.consellgeneral.ad Consell General] (en catalán)
+* [http://www.coprince-fr.ad/ Web del Copríncipe francés] (en catalán y francés)
+
+{{Ubicación geográfica
+| Noroeste   = {{FRA}}
+| Norte      = {{FRA}}
+| Noreste    = {{FRA}}
+| Oeste      = {{FRA}}&lt;br /&gt;{{ESP}}
+| Centro     = Andorra
+| Este       = {{FRA}}&lt;br /&gt;{{ESP}}
+| Suroeste   = {{ESP}}
+| Sur        = {{ESP}}
+| Sureste    = {{ESP}}
+}}
+
+[[Categoría:Andorra| ]]
+[[Categoría:Instituciones patrocinadoras de equipos ciclistas]]</text>
+      <sha1>ogt1nc8s6clcx4z4ix3f6g5lxneqdxm</sha1>
+    </revision>
+  </page>
+</mediawiki>
