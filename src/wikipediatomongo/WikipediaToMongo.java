@@ -19,9 +19,10 @@ public class WikipediaToMongo {
           
     public static void main(String[] args) throws UnknownHostException{      
         
-        MongoClient mongo = new MongoClient("localhost",27017);
+        Mongo mongo = new Mongo("localhost",27017);
         DB db = mongo.getDB("wikipediaIndex");
         DBCollection tablaDatos = db.getCollection("datosWiki");    
+        DBCollection indiceInvertido = db.getCollection("indiceInvertido");  
         
         SAXParserFactory factory = SAXParserFactory.newInstance();
         
@@ -167,15 +168,20 @@ public class WikipediaToMongo {
                     // Se simplifican los espacios en blanco
                     contenido = contenido.replaceAll("\\s+"," ");
                     // Se elimina el espacio inicial en caso de existir
-                    if (contenido.trim().length() > 0) {
-                        contenidoPrueba.append(contenido.trim().toLowerCase() + " ");   
+                    String contenidoTrimeado = contenido.trim().toLowerCase();
+                    String[] palabras = contenidoTrimeado.split(" ");
+                    if (contenidoTrimeado.length() > 0) {
+                        for(int i=0;i < palabras.length; i++){
+                            indexInvertido.realizarIndex(mongo, db,indiceInvertido,palabras[i], articulo.get(1));
+                        }
+                        contenidoPrueba.append(contenidoTrimeado + " ");   
                     }
                 } 
             }         
         };
         
         try {
-            saxParser.parse("C:/Users/PC/Desktop/prueba.xml", handler);
+            saxParser.parse("prueba.xml", handler);
         } catch (SAXException ex) {
             Logger.getLogger(WikipediaToMongo.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {

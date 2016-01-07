@@ -201,7 +201,7 @@ Wikipedia dispone de varios proyectos internos para mejorar los artículos de ci
       <comment>Bot: Eliminando &quot;Caldea.jpg&quot;. Borrado en Commons por [[commons:User:Alan|Alan]]. (Per [[:c:Commons:Deletion requests/Files in Category:Caldea|]])</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text xml:space="preserve">{{otros usos}}
+      <text xml:space="preserve">atajos{{otros usos}}
 {{Ficha de país 
 | nombre_oficial             = ''Principat d'Andorra''&lt;br /&gt;Principado de Andorra   
 | imagen_bandera             = Flag of Andorra.svg
