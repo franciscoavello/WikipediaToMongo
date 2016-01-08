@@ -34,6 +34,7 @@ public class ClaveValorDatos implements Comparable<ClaveValorDatos>{
 	this.frecuencia = dBObjectClaveVal.getInt("frecuencia");
     }    
     
+    // Metodo para realizar un objeto de mongo a partir de un objeto de tipo ClaveValorDatos
     public BasicDBObject toDBObjectKeyValues() {
         
         // Creamos una instancia BasicDBObject

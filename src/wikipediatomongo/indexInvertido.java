@@ -47,6 +47,7 @@ public class IndexInvertido implements Serializable {
 	}        
     }
    
+    //Metodo para crear un objeto de la base de datos a partir de uno de Java
     public BasicDBObject toDBObjectIndexInvertido(ArrayList<ClaveValorDatos> arrayKeyValue) {
         
         // Creamos una instancia BasicDBObject

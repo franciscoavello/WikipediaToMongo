@@ -2,6 +2,9 @@
 package wikipediatomongo;
 
 import com.mongodb.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
@@ -18,11 +21,39 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-public class WikipediaToMongo {   
-          
+public class WikipediaToMongo { 
+    
+    // Se agregan las stopwords desde el archivo al programa
+    public static ArrayList<String> ingresarStopwords() throws IOException{
+        ArrayList<String> stopwords = new ArrayList<String>();
+        File archivo = new File ("stopwords.txt");
+        FileReader fr = new FileReader (archivo);
+        BufferedReader br = new BufferedReader(fr);
+        String linea;
+        while((linea=br.readLine())!=null){
+            linea=linea.replace('á', 'a');
+            linea=linea.replace('é', 'e');
+            linea=linea.replace('í', 'i');
+            linea=linea.replace('ó', 'o');
+            linea=linea.replace('ú', 'u');
+            stopwords.add(linea);
+        }
+        fr.close();   
+        return stopwords;
+    }
+    
+    // Se eliminan las stopwords de un string
+    public static String eliminarStopwords(String palabra, ArrayList<String> stopwords){
+        for (int i = 0; i < stopwords.size(); i++) {
+            palabra = palabra.replaceAll(" "+stopwords.get(i)+" ", " ");
+        }
+        return palabra;
+    }
+    
+    // Se realiza el indice invertido
     public static void realizarIndex(Mongo mongo, DB db, DBCollection indiceInvertido,String palabra, String documento){
         DBCursor cursor =indiceInvertido.find();
-        if(!cursor.hasNext()){
+        if(!cursor.hasNext()){ //Es el primer elemento en la base de datos.
             ArrayList<ClaveValorDatos> clavesValores = new ArrayList<ClaveValorDatos>();
             ClaveValorDatos keyValuePal = new ClaveValorDatos(documento,1);            
             clavesValores.add(keyValuePal);
@@ -32,8 +63,7 @@ public class WikipediaToMongo {
         while(cursor.hasNext()){
             DBObject objetoPresente = cursor.next();
             if(objetoPresente.get("palabra").equals(palabra)){
-                boolean estabaDocumento=false;
-                //System.out.println("Repetida: " + palabra);
+                boolean estabaDocumento=false; // para tener contol sobre si existen los datos de esa palabra en ese documento
                 DBObject finPal = new BasicDBObject("palabra", objetoPresente.get("palabra"));
                 indiceInvertido.remove(finPal);
                 IndexInvertido ind = new IndexInvertido((BasicDBObject) objetoPresente);
@@ -62,10 +92,13 @@ public class WikipediaToMongo {
         indiceInvertido.insert(palIndex.toDBObjectIndexInvertido(clavesValores));
     }
     
-    public static void main(String[] args) throws UnknownHostException{      
+    public static void main(String[] args) throws UnknownHostException, IOException{  
         
+        ArrayList<String> stopwordsList = ingresarStopwords();
+        // Se agregan conexiones de MongoDB
         Mongo mongo = new Mongo("localhost",27017);
         DB db = mongo.getDB("wikipediaIndex");
+        db.dropDatabase();
         DBCollection tablaDatos = db.getCollection("datosWiki");    
         DBCollection indiceInvertido = db.getCollection("indiceInvertido");  
         
@@ -205,6 +238,7 @@ public class WikipediaToMongo {
                     contenido = contenido.replace("ñ", "n");
                     contenido = contenido.replace("Ñ", "Ñ");
                     contenido = contenido.replace("–", " ");
+                    contenido = eliminarStopwords(contenido, stopwordsList);
                     contenido = contenido.replaceAll("[^\\x00-\\x7F]", "");
                     contenido = contenido.replaceAll("\\\\/", "/");
                     // Se eliminan los saltos de linea
@@ -225,6 +259,13 @@ public class WikipediaToMongo {
                 } 
             }         
         };
+        
+        BasicDBObject index1 = new BasicDBObject();
+        index1.put("idDoc", 1);
+        tablaDatos.ensureIndex(index1);
+        BasicDBObject index2 = new BasicDBObject();
+        index2.put("palabra", 1);
+        indiceInvertido.ensureIndex(index2);
         
         try {
             saxParser.parse("prueba.xml", handler);
