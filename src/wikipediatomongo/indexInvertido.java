@@ -1,18 +1,20 @@
+
 package wikipediatomongo;
 
+import com.mongodb.BasicDBList;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
 import com.mongodb.Mongo;
+import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.List;
 
-public class indexInvertido {
+public class IndexInvertido implements Serializable {
     
     String palabra;
-    List<List<String>> docFrec;
+    ArrayList<ClaveValorDatos> docFrec;
 
     public String getPalabra() {
         return palabra;
@@ -22,38 +24,43 @@ public class indexInvertido {
         this.palabra = palabra;
     }
 
-    public List<List<String>> getDocFrec() {
+    public ArrayList<ClaveValorDatos> getDocFrec() {
         return docFrec;
     }
 
-    public void setDocFrec(List<List<String>> docFrec) {
+    public void setDocFrec(ArrayList<ClaveValorDatos> docFrec) {
+        this.docFrec = docFrec;
+    }
+
+    public IndexInvertido(String palabra, ArrayList<ClaveValorDatos> docFrec) {
+        this.palabra = palabra;
         this.docFrec = docFrec;
     }
     
-    public static void realizarIndex(Mongo mongo, DB db, DBCollection indiceInvertido,String palabra, String documento){
-        DBCursor cursor =indiceInvertido.find();
-        if(!cursor.hasNext()){
-            BasicDBObject palIndex = new BasicDBObject();
-            palIndex.put("palabra", palabra);
-            BasicDBObject datosIndex = new BasicDBObject();
-            datosIndex.put("documento", documento);
-            datosIndex.put("frecuencia", 0);
-            palIndex.put("datos", datosIndex);
-            indiceInvertido.insert(palIndex);
-        }
-        while(cursor.hasNext()){
-            if(cursor.next().get("palabra").equals(palabra)){
-                // Palabra ya está en la base de datos        
-                return;
-            }                        
-        }
-        BasicDBObject palIndex = new BasicDBObject();
-        palIndex.put("palabra", palabra);
-        BasicDBObject datosIndex = new BasicDBObject();
-        datosIndex.put("documento", documento);
-        datosIndex.put("frecuencia", 0);
-        palIndex.put("datos", datosIndex);
-        indiceInvertido.insert(palIndex);
+    public IndexInvertido(BasicDBObject dBObjectIndex) {
+        this.palabra = dBObjectIndex.getString("palabra");
+
+	BasicDBList listDatos = (BasicDBList) dBObjectIndex.get("datos");
+        this.docFrec = new ArrayList<ClaveValorDatos>();
+	for (Object keyVal : listDatos) {
+            this.docFrec.add(new ClaveValorDatos((BasicDBObject) keyVal));
+	}
+        System.out.println(docFrec.get(0).idDocumento);
+        
+    }
+   
+    public BasicDBObject toDBObjectIndexInvertido(ArrayList<ClaveValorDatos> arrayKeyValue) {
+        
+        // Creamos una instancia BasicDBObject
+        BasicDBObject dBObjectIndexInvertido = new BasicDBObject();
+        dBObjectIndexInvertido.append("palabra", this.getPalabra());
+        ArrayList<BasicDBObject> clavesValores = new ArrayList<BasicDBObject>();
+        for (int i=0; i<arrayKeyValue.size();i++) {
+            ClaveValorDatos keyValuePal = new ClaveValorDatos(arrayKeyValue.get(i).idDocumento,arrayKeyValue.get(i).frecuencia);            
+            clavesValores.add(keyValuePal.toDBObjectKeyValues());
+	}
+        dBObjectIndexInvertido.append("datos", clavesValores);        
+        return dBObjectIndexInvertido;
     }
 
     
