@@ -126,7 +126,8 @@ public class WikipediaToMongo {
             
             public void characters(char ch[], int start, int length) throws SAXException{
                 if(btitle){
-                    String titulo=new String(ch, start, length);                    
+                    String titulo=new String(ch, start, length);
+                    titulo = titulo.replace(' ', '_');
                     articulo.add("https://es.wikipedia.org/wiki/"+titulo);
                     btitle = false;                    
                 }
@@ -226,7 +227,7 @@ public class WikipediaToMongo {
         };
         
         try {
-            saxParser.parse("C:/Users/PC/Desktop/eswiki-20151202-pages-meta-current1.xml", handler);
+            saxParser.parse("prueba.xml", handler);
         } catch (SAXException ex) {
             Logger.getLogger(WikipediaToMongo.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
