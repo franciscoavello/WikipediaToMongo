@@ -17,6 +17,29 @@ import org.xml.sax.helpers.DefaultHandler;
 
 public class WikipediaToMongo {   
           
+    public static void realizarIndex(Mongo mongo, DB db, DBCollection indiceInvertido,String palabra, String documento){
+        DBCursor cursor =indiceInvertido.find();
+        if(!cursor.hasNext()){
+            ArrayList<ClaveValorDatos> clavesValores = new ArrayList<ClaveValorDatos>();
+            ClaveValorDatos keyValuePal = new ClaveValorDatos(documento,0);            
+            clavesValores.add(keyValuePal);
+            IndexInvertido palIndex = new IndexInvertido(palabra, clavesValores);
+            indiceInvertido.insert(palIndex.toDBObjectIndexInvertido(clavesValores));
+        }
+        while(cursor.hasNext()){
+            DBObject objetoPresente = cursor.next();
+            if(objetoPresente.get("palabra").equals(palabra)){
+                IndexInvertido ind = new IndexInvertido((BasicDBObject) objetoPresente);
+                return;
+            }                        
+        }        
+        ArrayList<ClaveValorDatos> clavesValores = new ArrayList<ClaveValorDatos>();
+        ClaveValorDatos keyValuePal = new ClaveValorDatos(documento,0);            
+        clavesValores.add(keyValuePal);
+        IndexInvertido palIndex = new IndexInvertido(palabra, clavesValores);
+        indiceInvertido.insert(palIndex.toDBObjectIndexInvertido(clavesValores));
+    }
+    
     public static void main(String[] args) throws UnknownHostException{      
         
         Mongo mongo = new Mongo("localhost",27017);
@@ -172,7 +195,7 @@ public class WikipediaToMongo {
                     String[] palabras = contenidoTrimeado.split(" ");
                     if (contenidoTrimeado.length() > 0) {
                         for(int i=0;i < palabras.length; i++){
-                            indexInvertido.realizarIndex(mongo, db,indiceInvertido,palabras[i], articulo.get(1));
+                            realizarIndex(mongo, db,indiceInvertido,palabras[i], articulo.get(1));
                         }
                         contenidoPrueba.append(contenidoTrimeado + " ");   
                     }
