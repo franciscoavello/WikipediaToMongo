@@ -5,6 +5,9 @@ import com.mongodb.*;
 import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import org.xml.sax.Attributes;
 import java.util.logging.Level;
@@ -21,7 +24,7 @@ public class WikipediaToMongo {
         DBCursor cursor =indiceInvertido.find();
         if(!cursor.hasNext()){
             ArrayList<ClaveValorDatos> clavesValores = new ArrayList<ClaveValorDatos>();
-            ClaveValorDatos keyValuePal = new ClaveValorDatos(documento,0);            
+            ClaveValorDatos keyValuePal = new ClaveValorDatos(documento,1);            
             clavesValores.add(keyValuePal);
             IndexInvertido palIndex = new IndexInvertido(palabra, clavesValores);
             indiceInvertido.insert(palIndex.toDBObjectIndexInvertido(clavesValores));
@@ -29,12 +32,31 @@ public class WikipediaToMongo {
         while(cursor.hasNext()){
             DBObject objetoPresente = cursor.next();
             if(objetoPresente.get("palabra").equals(palabra)){
+                boolean estabaDocumento=false;
+                //System.out.println("Repetida: " + palabra);
+                DBObject finPal = new BasicDBObject("palabra", objetoPresente.get("palabra"));
+                indiceInvertido.remove(finPal);
                 IndexInvertido ind = new IndexInvertido((BasicDBObject) objetoPresente);
+                ArrayList<ClaveValorDatos> clavesValores = new ArrayList<ClaveValorDatos>();
+                for(int i=0;i<ind.docFrec.size();i++){                    
+                    if(ind.docFrec.get(i).idDocumento.equals(documento)){
+                        estabaDocumento=true;
+                        ind.docFrec.get(i).frecuencia++;
+                    }
+                    ClaveValorDatos keyValuePal = new ClaveValorDatos(ind.docFrec.get(i).idDocumento,ind.docFrec.get(i).frecuencia);            
+                    clavesValores.add(keyValuePal);
+                }
+                if(!estabaDocumento){
+                    ClaveValorDatos keyValuePalnew = new ClaveValorDatos(documento,1);            
+                    clavesValores.add(keyValuePalnew);
+                }                
+                Collections.sort(clavesValores, Collections.reverseOrder());                
+                indiceInvertido.insert(ind.toDBObjectIndexInvertido(clavesValores));
                 return;
             }                        
         }        
         ArrayList<ClaveValorDatos> clavesValores = new ArrayList<ClaveValorDatos>();
-        ClaveValorDatos keyValuePal = new ClaveValorDatos(documento,0);            
+        ClaveValorDatos keyValuePal = new ClaveValorDatos(documento,1);            
         clavesValores.add(keyValuePal);
         IndexInvertido palIndex = new IndexInvertido(palabra, clavesValores);
         indiceInvertido.insert(palIndex.toDBObjectIndexInvertido(clavesValores));
@@ -204,7 +226,7 @@ public class WikipediaToMongo {
         };
         
         try {
-            saxParser.parse("prueba.xml", handler);
+            saxParser.parse("C:/Users/PC/Desktop/eswiki-20151202-pages-meta-current1.xml", handler);
         } catch (SAXException ex) {
             Logger.getLogger(WikipediaToMongo.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {

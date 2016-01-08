@@ -44,9 +44,7 @@ public class IndexInvertido implements Serializable {
         this.docFrec = new ArrayList<ClaveValorDatos>();
 	for (Object keyVal : listDatos) {
             this.docFrec.add(new ClaveValorDatos((BasicDBObject) keyVal));
-	}
-        System.out.println(docFrec.get(0).idDocumento);
-        
+	}        
     }
    
     public BasicDBObject toDBObjectIndexInvertido(ArrayList<ClaveValorDatos> arrayKeyValue) {

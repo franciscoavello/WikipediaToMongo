@@ -3,7 +3,7 @@ package wikipediatomongo;
 import java.io.Serializable;
 import com.mongodb.*;
 
-public class ClaveValorDatos implements Serializable{
+public class ClaveValorDatos implements Comparable<ClaveValorDatos>{
     
     String idDocumento;
     Integer frecuencia;
@@ -44,6 +44,11 @@ public class ClaveValorDatos implements Serializable{
         
         return keyValues;
     }  
+
+    @Override
+    public int compareTo(ClaveValorDatos o) {
+        return this.frecuencia > o.frecuencia ? 1 : (this.frecuencia < o.frecuencia ? -1 : 0);
+    }
     
 
 }
